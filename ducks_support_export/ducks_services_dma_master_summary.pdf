@@ -1,0 +1,2195 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 20 /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1427 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(DUCK'S SERVICES DMA MASTER SUMMARY) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(Prepared from the DMA Hardware Docs / GitBook pages provided in chat.) Tj
+T*
+() Tj
+T*
+(Purpose: preserve the full DMA flow in simple support language so it can be reviewed quickly) Tj
+T*
+(while handling tickets.) Tj
+T*
+() Tj
+T*
+(1. Big Picture) Tj
+T*
+(--------------) Tj
+T*
+() Tj
+T*
+(The DMA docs are not one single setup. They are a chain of steps:) Tj
+T*
+() Tj
+T*
+(? main PC hardware setup) Tj
+T*
+(? second PC driver setup) Tj
+T*
+(? speed test) Tj
+T*
+(? troubleshooting) Tj
+T*
+(? firmware preparation) Tj
+T*
+(? firmware flashing) Tj
+T*
+(? accessory setup) Tj
+T*
+() Tj
+T*
+(Main accessory categories covered:) Tj
+T*
+() Tj
+T*
+(? Makcu) Tj
+T*
+(? 1K HDMI Fuser) Tj
+T*
+(? 4K DC500 Fuser) Tj
+T*
+(? KM Box Net) Tj
+T*
+(? KM Box B+) Tj
+T*
+() Tj
+T*
+(The most important support habit:) Tj
+T*
+() Tj
+T*
+(`Always identify what stage the customer is currently stuck on.`) Tj
+T*
+() Tj
+T*
+(That makes the ticket much easier to handle.) Tj
+T*
+() Tj
+T*
+(2. Main DMA Setup Flow) Tj
+T*
+(----------------------) Tj
+T*
+() Tj
+T*
+(Recommended mental flow:) Tj
+T*
+() Tj
+T*
+(1. `Hardware Setup \(Main PC\)`) Tj
+T*
+(2. `JTAG Driver Setup \(2nd PC\)`) Tj
+T*
+(3. `DATA Driver Setup \(2nd PC\)`) Tj
+T*
+(4. `Speed Test \(2nd PC\)`) Tj
+T*
+(5. `Troubleshooting`) Tj
+T*
+(6. `DNA ID`) Tj
+T*
+(7. `Firmware Flashing`) Tj
+T*
+(8. `Makcu / Fuser / KM Box` if applicable) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1223 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(When a customer opens a DMA ticket, first ask yourself:) Tj
+T*
+() Tj
+T*
+(? are they stuck at hardware install?) Tj
+T*
+(? driver install?) Tj
+T*
+(? speed test?) Tj
+T*
+(? firmware flashing?) Tj
+T*
+(? Makcu?) Tj
+T*
+(? Fuser?) Tj
+T*
+(? KM Box?) Tj
+T*
+() Tj
+T*
+(3. Hardware Setup \(Main PC\)) Tj
+T*
+(---------------------------) Tj
+T*
+() Tj
+T*
+(This is the first physical setup step on the gaming PC.) Tj
+T*
+() Tj
+T*
+(3.1 Main Steps) Tj
+T*
+() Tj
+T*
+(? fully shut down the `Game PC`) Tj
+T*
+(? insert the DMA card into any available `PCI-e` slot) Tj
+T*
+(? connect the `JTAG` port on the DMA card to the `2nd PC`) Tj
+T*
+(? enter BIOS / UEFI) Tj
+T*
+() Tj
+T*
+(3.2 BIOS Changes) Tj
+T*
+() Tj
+T*
+(For `Intel`, disable:) Tj
+T*
+() Tj
+T*
+(? `VT-d`) Tj
+T*
+(? `Intel Virtualization Technology`) Tj
+T*
+(? `IOMMU` if available) Tj
+T*
+() Tj
+T*
+(For `AMD`, disable:) Tj
+T*
+() Tj
+T*
+(? `SVM`) Tj
+T*
+(? `IOMMU`) Tj
+T*
+() Tj
+T*
+(Optional if available:) Tj
+T*
+() Tj
+T*
+(? disable `NX-Bit / Execute Disable Bit`) Tj
+T*
+(? set PCIe slot to `Gen1` for compatibility) Tj
+T*
+() Tj
+T*
+(3.3 Windows Change) Tj
+T*
+() Tj
+T*
+(On the `Game PC`, disable:) Tj
+T*
+() Tj
+T*
+(? `Memory Integrity`) Tj
+T*
+() Tj
+T*
+(Path:) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1371 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(? `Windows Security`) Tj
+T*
+(? `Device Security`) Tj
+T*
+(? `Core Isolation`) Tj
+T*
+(? `Core Isolation Details`) Tj
+T*
+(? turn off `Memory Integrity`) Tj
+T*
+() Tj
+T*
+(If the section will not load:) Tj
+T*
+() Tj
+T*
+(? it may already be disabled) Tj
+T*
+(? or unsupported) Tj
+T*
+() Tj
+T*
+(3.4 Support Meaning) Tj
+T*
+() Tj
+T*
+(This step prepares the `Game PC` to work with DMA correctly.) Tj
+T*
+() Tj
+T*
+(If someone has early DMA problems, ask:) Tj
+T*
+() Tj
+T*
+(? is the card installed properly?) Tj
+T*
+(? is the JTAG cable connected to the `2nd PC`?) Tj
+T*
+(? is virtualization fully disabled?) Tj
+T*
+(? is Memory Integrity off?) Tj
+T*
+(? did they change PCIe slot to Gen1 if needed?) Tj
+T*
+() Tj
+T*
+(4. JTAG Driver Setup \(2nd PC\)) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+T*
+(This is done on the `2nd PC`.) Tj
+T*
+() Tj
+T*
+(4.1 Main Steps) Tj
+T*
+() Tj
+T*
+(? download the `JTAG Driver`) Tj
+T*
+(? run the installer) Tj
+T*
+(? click `Install`) Tj
+T*
+(? click `OK` when done) Tj
+T*
+() Tj
+T*
+(4.2 Support Meaning) Tj
+T*
+() Tj
+T*
+(This is the basic communication driver for DMA setup/flashing steps.) Tj
+T*
+() Tj
+T*
+(4.3 Important Support Memory) Tj
+T*
+() Tj
+T*
+(? `JTAG Driver` goes on the `2nd PC`) Tj
+T*
+(? not on the gaming PC) Tj
+T*
+() Tj
+T*
+(5. DATA Driver Setup \(2nd PC\)) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1024 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(This is also done on the `2nd PC`.) Tj
+T*
+() Tj
+T*
+(Goal:) Tj
+T*
+() Tj
+T*
+(? make the DMA card appear correctly in `Device Manager`) Tj
+T*
+() Tj
+T*
+(5.1 Correct Result) Tj
+T*
+() Tj
+T*
+(Device should appear as:) Tj
+T*
+() Tj
+T*
+(? `FTDI FT601 USB 3.0 Bridge Device`) Tj
+T*
+() Tj
+T*
+(Under:) Tj
+T*
+() Tj
+T*
+(? `Universal Serial Bus devices`) Tj
+T*
+() Tj
+T*
+(5.2 Missing Driver) Tj
+T*
+() Tj
+T*
+(If it appears as:) Tj
+T*
+() Tj
+T*
+(? `FTDI SuperSpeed-FIFO Bridge`) Tj
+T*
+() Tj
+T*
+(Under:) Tj
+T*
+() Tj
+T*
+(? `Other devices`) Tj
+T*
+() Tj
+T*
+(With yellow exclamation mark:) Tj
+T*
+() Tj
+T*
+(? install the correct FTDI driver) Tj
+T*
+() Tj
+T*
+(5.3 Wrong Driver) Tj
+T*
+() Tj
+T*
+(If it appears as:) Tj
+T*
+() Tj
+T*
+(? `FTDI SuperSpeed-FIFO Bridge`) Tj
+T*
+() Tj
+T*
+(Under:) Tj
+T*
+() Tj
+T*
+(? `Universal Serial Bus devices`) Tj
+T*
+() Tj
+T*
+(Then:) Tj
+T*
+() Tj
+T*
+(? uninstall device) Tj
+T*
+(? check `Delete driver`) Tj
+T*
+(? install proper FTDI driver) Tj
+T*
+() Tj
+T*
+(5.4 Driver Files Mentioned) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 1255 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? `FTD3XX Driver v1.3.0.10`) Tj
+T*
+(? backup: `FTD3XX Driver v1.3.0.8`) Tj
+T*
+() Tj
+T*
+(5.5 Support Meaning) Tj
+T*
+() Tj
+T*
+(If customer says:) Tj
+T*
+() Tj
+T*
+(? device not detected correctly) Tj
+T*
+(? yellow mark in Device Manager) Tj
+T*
+(? FTDI issue) Tj
+T*
+() Tj
+T*
+(Ask:) Tj
+T*
+() Tj
+T*
+(? what exact device name appears?) Tj
+T*
+(? which Device Manager category is it under?) Tj
+T*
+(? is there a yellow exclamation mark?) Tj
+T*
+() Tj
+T*
+(6. Speed Test \(2nd PC\)) Tj
+T*
+(----------------------) Tj
+T*
+() Tj
+T*
+(This is one of the most important steps.) Tj
+T*
+() Tj
+T*
+(6.1 Main Purpose) Tj
+T*
+() Tj
+T*
+(Confirm the DMA card and connection are functioning correctly.) Tj
+T*
+() Tj
+T*
+(6.2 Main Steps) Tj
+T*
+() Tj
+T*
+(? ensure cable is in the `DATA Port`) Tj
+T*
+(? run the speed test tool on the `2nd PC`) Tj
+T*
+(? select `[4] Mixed Test`) Tj
+T*
+(? wait for results) Tj
+T*
+() Tj
+T*
+(6.3 Speed Ratings) Tj
+T*
+() Tj
+T*
+(? `< 4000` = Low) Tj
+T*
+(? `4000+` = Warning) Tj
+T*
+(? `5200+` = Good) Tj
+T*
+(? `6500+` = Amazing) Tj
+T*
+(? `7500+` = Elite) Tj
+T*
+() Tj
+T*
+(6.4 Throughput Ratings) Tj
+T*
+() Tj
+T*
+(? `< 125` = Low) Tj
+T*
+(? `125+` = Warning) Tj
+T*
+(? `150+` = Good) Tj
+T*
+(? `200+` = Amazing) Tj
+T*
+(? `220+` = Elite) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 1205 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(6.5 Support Meaning) Tj
+T*
+() Tj
+T*
+(If speed test is healthy, DMA connection is likely good.) Tj
+T*
+() Tj
+T*
+(If speed test is bad:) Tj
+T*
+() Tj
+T*
+(? check cable) Tj
+T*
+(? check USB port) Tj
+T*
+(? check FTDI driver) Tj
+T*
+(? check BIOS) Tj
+T*
+(? check hardware seating) Tj
+T*
+() Tj
+T*
+(6.6 Example of Strong Results) Tj
+T*
+() Tj
+T*
+(From the test image you shared:) Tj
+T*
+() Tj
+T*
+(? around `7312 RPS`) Tj
+T*
+(? throughput around `219.25 MB/s`) Tj
+T*
+() Tj
+T*
+(That is considered:) Tj
+T*
+() Tj
+T*
+(? `Amazing` speed) Tj
+T*
+(? `Amazing` throughput) Tj
+T*
+() Tj
+T*
+(7. DMA Troubleshooting) Tj
+T*
+(----------------------) Tj
+T*
+() Tj
+T*
+(This is one of the most useful sections because it ties specific errors to likely causes.) Tj
+T*
+() Tj
+T*
+(7.1 `[FAIL] VMM INIT FAILED.`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? card/connection is hung) Tj
+T*
+(? often due to fast reboot or waking from sleep) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+T*
+(? fully shut down the `Game PC`) Tj
+T*
+(? do not just reboot) Tj
+T*
+(? wait `5?10 seconds`) Tj
+T*
+(? cold boot again) Tj
+T*
+() Tj
+T*
+(7.2 `FPGA: ERROR: Unable to connect to USB/FT601 device`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 1247 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? `FTDI` driver missing) Tj
+T*
+(? wrong port used) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+T*
+(? confirm FTDI driver installed on `2nd PC`) Tj
+T*
+(? confirm cable is in the `DATA Port`) Tj
+T*
+() Tj
+T*
+(7.3 `Failed to retrieve Physical Memory Map`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? unstable or faulty USB connection) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+T*
+(? reseat USB cable) Tj
+T*
+(? try another USB 3.0 cable) Tj
+T*
+(? try another USB port) Tj
+T*
+(? last resort: reinstall Windows on `Game PC`) Tj
+T*
+() Tj
+T*
+(7.4 `Offline symbols unavailable - info.db not found`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? tool cannot get symbol data) Tj
+T*
+(? tool not fully extracted) Tj
+T*
+(? required support files missing) Tj
+T*
+(? internet/firewall issue) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+T*
+(? fully unzip tool) Tj
+T*
+(? confirm `symsrv.dll` and `dbghelp.dll` are in same folder) Tj
+T*
+(? confirm internet access) Tj
+T*
+(? check firewalls) Tj
+T*
+(? manually place latest `info.db` if needed) Tj
+T*
+() Tj
+T*
+(7.5 `FPGA: TINY PCIe TLP Algorithm auto-selected`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? lower speeds) Tj
+T*
+(? poor USB connection) Tj
+T*
+(? sometimes firmware limitation) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 1325 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? reseat cable) Tj
+T*
+(? try another USB port) Tj
+T*
+(? review firmware if needed) Tj
+T*
+() Tj
+T*
+(7.6 `[CORE] Initialization Failed. Unable to locate valid DTB / auto-identify OS`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? BIOS settings wrong) Tj
+T*
+(? unstable USB link) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+T*
+(? review BIOS settings) Tj
+T*
+(? double-check cable stability and correct port) Tj
+T*
+(? last resort: reinstall Windows on `Game PC`) Tj
+T*
+() Tj
+T*
+(7.7 `DMA Test Tool FAIL / General Failures`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? speed or throughput below working threshold) Tj
+T*
+() Tj
+T*
+(Common triggers:) Tj
+T*
+() Tj
+T*
+(? speed under `4000`) Tj
+T*
+(? throughput under `125 MB/s`) Tj
+T*
+() Tj
+T*
+(Fixes:) Tj
+T*
+() Tj
+T*
+(? use a proper USB 3.0 data cable) Tj
+T*
+(? reseat cable) Tj
+T*
+(? switch `2nd PC` to `High Performance` power plan) Tj
+T*
+(? try different ports/cables) Tj
+T*
+(? reseat DMA card) Tj
+T*
+(? check bracket fitment) Tj
+T*
+(? confirm `2nd PC` meets requirements) Tj
+T*
+(? some firmware types may reduce speed) Tj
+T*
+() Tj
+T*
+(7.8 `Software not loading / entities missing / glitchy behavior`) Tj
+T*
+() Tj
+T*
+(Cause:) Tj
+T*
+() Tj
+T*
+(? `Paged Out Memory`) Tj
+T*
+() Tj
+T*
+(Meaning:) Tj
+T*
+() Tj
+T*
+(? target process memory moved to the Windows page file) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 1300 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? DMA cannot read paged-out memory properly) Tj
+T*
+() Tj
+T*
+(Fix:) Tj
+T*
+() Tj
+T*
+(? install more RAM in `Game PC`) Tj
+T*
+(? optional page-file changes only if necessary) Tj
+T*
+() Tj
+T*
+(7.9 Biggest Support Lesson) Tj
+T*
+() Tj
+T*
+(Many DMA issues are **not** immediately firmware issues.) Tj
+T*
+() Tj
+T*
+(They are often:) Tj
+T*
+() Tj
+T*
+(? cable issues) Tj
+T*
+(? wrong port) Tj
+T*
+(? wrong driver) Tj
+T*
+(? wrong BIOS settings) Tj
+T*
+(? low speed) Tj
+T*
+(? RAM pressure) Tj
+T*
+() Tj
+T*
+(8. DNA ID) Tj
+T*
+(---------) Tj
+T*
+() Tj
+T*
+(This step is used before firmware preparation.) Tj
+T*
+() Tj
+T*
+(Important support info to request for firmware prep:) Tj
+T*
+() Tj
+T*
+(? `DMA DNA ID`) Tj
+T*
+(? `motherboard model`) Tj
+T*
+(? `firmware order number`) Tj
+T*
+() Tj
+T*
+(Support meaning:) Tj
+T*
+() Tj
+T*
+(If customer is asking for firmware prep/help, this info is highly useful.) Tj
+T*
+() Tj
+T*
+(9. 35t Firmware Flashing) Tj
+T*
+(------------------------) Tj
+T*
+() Tj
+T*
+(This section is only for `35t` cards.) Tj
+T*
+() Tj
+T*
+(9.1 Main Steps) Tj
+T*
+() Tj
+T*
+(? connect USB cable to `JTAG` port) Tj
+T*
+(? make sure `JTAG Driver` is installed on `2nd PC`) Tj
+T*
+(? open flashing tool) Tj
+T*
+(? select firmware file) Tj
+T*
+(? press `Start`) Tj
+T*
+(? wait for `Update Complete`) Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 1228 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? restart the DMA device) Tj
+T*
+(? move cable from `JTAG` to `DATA`) Tj
+T*
+(? run speed test) Tj
+T*
+() Tj
+T*
+(9.2 Key Support Memory) Tj
+T*
+() Tj
+T*
+(Very important:) Tj
+T*
+() Tj
+T*
+(? after flashing `35t`, move the cable from `JTAG` to `DATA`) Tj
+T*
+() Tj
+T*
+(This is easy for customers to miss.) Tj
+T*
+() Tj
+T*
+(10. 75t / 100t Firmware Flashing) Tj
+T*
+(--------------------------------) Tj
+T*
+() Tj
+T*
+(This section is for `75t` and `100t` cards.) Tj
+T*
+() Tj
+T*
+(10.1 Main Steps) Tj
+T*
+() Tj
+T*
+(? connect to `JTAG`) Tj
+T*
+(? make sure `JTAG Driver` is installed) Tj
+T*
+(? open `75t / 100t Flashing Tool`) Tj
+T*
+(? configure correct field values) Tj
+T*
+(? choose `.bin`) Tj
+T*
+(? press `Flash`) Tj
+T*
+(? wait until progress reaches `100%`) Tj
+T*
+(? run speed test) Tj
+T*
+() Tj
+T*
+(10.2 Required Tool Values) Tj
+T*
+() Tj
+T*
+(For `75t`:) Tj
+T*
+() Tj
+T*
+(? `Field 1: xc7a75t`) Tj
+T*
+() Tj
+T*
+(For `100t`:) Tj
+T*
+() Tj
+T*
+(? `Field 1: xc7a100t`) Tj
+T*
+() Tj
+T*
+(For both:) Tj
+T*
+() Tj
+T*
+(? `Field 2: BIN`) Tj
+T*
+(? `Field 3: 10000000`) Tj
+T*
+() Tj
+T*
+(10.3 Key Support Memory) Tj
+T*
+() Tj
+T*
+(If customer says flash failed or still doesn?t work, verify:) Tj
+T*
+() Tj
+T*
+(? correct card model) Tj
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 1226 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? correct `Field 1`) Tj
+T*
+(? `BIN` selected) Tj
+T*
+(? `10000000` used) Tj
+T*
+(? progress really hit `100%`) Tj
+T*
+() Tj
+T*
+(11. Makcu Overview) Tj
+T*
+(------------------) Tj
+T*
+() Tj
+T*
+(Makcu has its own setup chain:) Tj
+T*
+() Tj
+T*
+(1. physical cable setup) Tj
+T*
+(2. driver install) Tj
+T*
+(3. COM port setup) Tj
+T*
+(4. flashing) Tj
+T*
+() Tj
+T*
+(12. Makcu Cable Setup) Tj
+T*
+(---------------------) Tj
+T*
+() Tj
+T*
+(Cable layout:) Tj
+T*
+() Tj
+T*
+(? `LEFT cable` -> `Main PC`) Tj
+T*
+(? `MIDDLE cable` -> `Second PC`) Tj
+T*
+(? `RIGHT cable` -> `Mouse`) Tj
+T*
+() Tj
+T*
+(Key support memory:) Tj
+T*
+() Tj
+T*
+(Wrong cable placement is a common cause of Makcu problems.) Tj
+T*
+() Tj
+T*
+(13. Makcu Driver) Tj
+T*
+(----------------) Tj
+T*
+() Tj
+T*
+(This is done on the `Second PC`.) Tj
+T*
+() Tj
+T*
+(13.1 Main Steps) Tj
+T*
+() Tj
+T*
+(? install the `.inf` driver) Tj
+T*
+(? open `Device Manager`) Tj
+T*
+(? find the COM device) Tj
+T*
+(? set `COM Port Number` to anything below `10`) Tj
+T*
+(? close tool if open) Tj
+T*
+(? unplug/replug left-most cable to restart Makcu) Tj
+T*
+() Tj
+T*
+(13.2 Example Device) Tj
+T*
+() Tj
+T*
+(Something like:) Tj
+T*
+() Tj
+T*
+(? `USB-Enhanced-SERIAL CH343 \(COM5\)`) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 1282 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(`COM5` is okay because it is below `10`) Tj
+T*
+() Tj
+T*
+(13.3 Key Support Memory) Tj
+T*
+() Tj
+T*
+(If Makcu is not detected or AIO tool behaves strangely, check:) Tj
+T*
+() Tj
+T*
+(? driver installed?) Tj
+T*
+(? COM below 10?) Tj
+T*
+(? Makcu restarted after COM changes?) Tj
+T*
+() Tj
+T*
+(14. Makcu Flashing) Tj
+T*
+(------------------) Tj
+T*
+() Tj
+T*
+(This is done from the `Second PC`.) Tj
+T*
+() Tj
+T*
+(14.1 Pre-Setup) Tj
+T*
+() Tj
+T*
+(? run `AIO Tool` on the `Second PC`) Tj
+T*
+(? do not run from the main PC) Tj
+T*
+(? download the AIO Tool) Tj
+T*
+(? let it update automatically) Tj
+T*
+() Tj
+T*
+(14.2 Main Steps) Tj
+T*
+() Tj
+T*
+(Flash left side:) Tj
+T*
+() Tj
+T*
+(? remove top cover) Tj
+T*
+(? hold `LEFT` button) Tj
+T*
+(? plug cable into `LEFT` port) Tj
+T*
+(? wait for `MCU connected in flash mode`) Tj
+T*
+(? click `Flash Left`) Tj
+T*
+(? wait for completion) Tj
+T*
+(? unplug left port cable) Tj
+T*
+() Tj
+T*
+(Flash right side:) Tj
+T*
+() Tj
+T*
+(? hold `RIGHT` button) Tj
+T*
+(? plug cable into `RIGHT` port) Tj
+T*
+(? click `Flash Right`) Tj
+T*
+(? wait for completion) Tj
+T*
+() Tj
+T*
+(14.3 Key Support Memory) Tj
+T*
+() Tj
+T*
+(Makcu flashing is a two-side process:) Tj
+T*
+() Tj
+T*
+(? left side must be flashed) Tj
+T*
+(? right side must be flashed) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 1322 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(Common mistakes:) Tj
+T*
+() Tj
+T*
+(? wrong side button) Tj
+T*
+(? wrong port) Tj
+T*
+(? not seeing flash mode message) Tj
+T*
+(? only flashing one side) Tj
+T*
+() Tj
+T*
+(15. 1K Fuser Overview) Tj
+T*
+(---------------------) Tj
+T*
+() Tj
+T*
+(This gives the fuser basics:) Tj
+T*
+() Tj
+T*
+(? indicator lights) Tj
+T*
+(? button functions) Tj
+T*
+(? cable/port layout) Tj
+T*
+() Tj
+T*
+(15.1 Lights) Tj
+T*
+() Tj
+T*
+(? `D1` = power) Tj
+T*
+(? `D2` = fusion active) Tj
+T*
+(? `H1` = primary/main PC signal) Tj
+T*
+(? `H2` = secondary PC signal) Tj
+T*
+() Tj
+T*
+(15.2 Buttons) Tj
+T*
+() Tj
+T*
+(? `Power` = power switch) Tj
+T*
+(? `K1` = secondary screen mode) Tj
+T*
+(? `K2` = main screen mode) Tj
+T*
+(? `K3` = enable / adjust fusion) Tj
+T*
+(? `K4` = reset / re-engage) Tj
+T*
+() Tj
+T*
+(15.3 Ports) Tj
+T*
+() Tj
+T*
+(? `Output` -> main monitor) Tj
+T*
+(? `Input1` -> main PC GPU) Tj
+T*
+(? `Input2` -> second PC GPU) Tj
+T*
+(? `DC12V` -> power) Tj
+T*
+() Tj
+T*
+(16. 1K Fuser Setup) Tj
+T*
+(------------------) Tj
+T*
+() Tj
+T*
+(16.1 Main Steps) Tj
+T*
+() Tj
+T*
+(? disconnect all displays except main monitor) Tj
+T*
+(? connect main monitor to fuser, not GPU) Tj
+T*
+(? on both PCs: set display mode to `Extend these displays`) Tj
+T*
+(? on `2nd PC`: set wallpaper/background to solid `black`) Tj
+T*
+(? use `3 HDMI 2.0 cables`) Tj
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 1222 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(16.2 Important Troubleshooting) Tj
+T*
+() Tj
+T*
+(Merged desktop / two search bars:) Tj
+T*
+() Tj
+T*
+(? press `K2`) Tj
+T*
+() Tj
+T*
+(Second monitor no signal:) Tj
+T*
+() Tj
+T*
+(? make sure second monitor is turned on) Tj
+T*
+(? second monitor should connect to its own PC, not the fuser) Tj
+T*
+() Tj
+T*
+(Refresh rate stuck at `60Hz` or `90Hz`:) Tj
+T*
+() Tj
+T*
+(? likely not all cables are `HDMI 2.0`) Tj
+T*
+() Tj
+T*
+(16.3 Key Support Memory) Tj
+T*
+() Tj
+T*
+(Most 1K fuser problems are due to:) Tj
+T*
+() Tj
+T*
+(? wrong cable type) Tj
+T*
+(? wrong display mode) Tj
+T*
+(? monitor connected wrong) Tj
+T*
+(? second PC background not black) Tj
+T*
+(? wrong mode button) Tj
+T*
+() Tj
+T*
+(17. 4K DC500 Fuser Overview) Tj
+T*
+(---------------------------) Tj
+T*
+() Tj
+T*
+(This is the higher-end fuser.) Tj
+T*
+() Tj
+T*
+(17.1 Critical Rule) Tj
+T*
+() Tj
+T*
+(Use only **one interface type at a time**:) Tj
+T*
+() Tj
+T*
+(? `HDMI 2.1`) Tj
+T*
+(? or `DisplayPort 1.4 / 2.1`) Tj
+T*
+() Tj
+T*
+(Do **not** mix HDMI and DP.) Tj
+T*
+() Tj
+T*
+(17.2 Support Range) Tj
+T*
+() Tj
+T*
+(HDMI 2.1:) Tj
+T*
+() Tj
+T*
+(? `1080p` up to `480?540Hz`) Tj
+T*
+(? `1440p` up to `320?355Hz`) Tj
+T*
+(? `4K` up to `144?158Hz`) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 1134 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(DisplayPort 1.4:) Tj
+T*
+() Tj
+T*
+(? `1080p` up to `480Hz`) Tj
+T*
+(? `1440p` up to `320Hz`) Tj
+T*
+(? `4K` up to `144Hz`) Tj
+T*
+() Tj
+T*
+(17.3 Hardware Requirements) Tj
+T*
+() Tj
+T*
+(For `HDMI`:) Tj
+T*
+() Tj
+T*
+(? `NVIDIA RTX 3060` / `AMD RX 6500 XT` or better) Tj
+T*
+() Tj
+T*
+(For `DP`:) Tj
+T*
+() Tj
+T*
+(? `NVIDIA GTX 10-series` / `AMD RX 500-series` or newer) Tj
+T*
+() Tj
+T*
+(Secondary PC CPU:) Tj
+T*
+() Tj
+T*
+(? minimum `6 threads`) Tj
+T*
+() Tj
+T*
+(Monitor:) Tj
+T*
+() Tj
+T*
+(? `HDMI 2.1 FRL 48 Gbps`) Tj
+T*
+(? or `DP 1.4 / DP 2.1`) Tj
+T*
+() Tj
+T*
+(18. DC500 Cables & Controls) Tj
+T*
+(---------------------------) Tj
+T*
+() Tj
+T*
+(18.1 Cable Layout) Tj
+T*
+() Tj
+T*
+(HDMI:) Tj
+T*
+() Tj
+T*
+(? Main PC -> `HDMI RX0`) Tj
+T*
+(? Second PC -> `HDMI RX1`) Tj
+T*
+(? Monitor -> `HDMI TX`) Tj
+T*
+() Tj
+T*
+(DP:) Tj
+T*
+() Tj
+T*
+(? Main PC -> `DP RX0`) Tj
+T*
+(? Second PC -> `DP RX1`) Tj
+T*
+(? Monitor -> `DP TX`) Tj
+T*
+() Tj
+T*
+(`RX0` and `RX1` can be swapped by holding `K4` for `3?5 seconds`) Tj
+T*
+() Tj
+T*
+(18.2 Ports / Power) Tj
+T*
+() Tj
+T*
+(? `DC12V` = main power) Tj
+T*
+(? `12V 3A` = optional backup power) Tj
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 1273 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? `USB-C` = debug / firmware updates) Tj
+T*
+() Tj
+T*
+(18.3 Buttons) Tj
+T*
+() Tj
+T*
+(? `K1` = info / EDID switch) Tj
+T*
+(? `K2` = increase overlay strength) Tj
+T*
+(? `K3` = decrease alpha / long-press reset) Tj
+T*
+(? `K4` = overlay enable/disable or swap layers) Tj
+T*
+() Tj
+T*
+(19. DC500 Troubleshooting & Indicators) Tj
+T*
+(--------------------------------------) Tj
+T*
+() Tj
+T*
+(19.1 Front Lights) Tj
+T*
+() Tj
+T*
+(? `DC` = monitor detected) Tj
+T*
+(? `RX0` = host/main PC detected) Tj
+T*
+(? `RX1` = secondary PC detected) Tj
+T*
+(? `RH` = overlay enabled) Tj
+T*
+() Tj
+T*
+(If a light is off, that signal is not detected.) Tj
+T*
+() Tj
+T*
+(19.2 `K1` Info Screen) Tj
+T*
+() Tj
+T*
+(Shows:) Tj
+T*
+() Tj
+T*
+(? `MAIN` resolution & refresh) Tj
+T*
+(? `SECOND` resolution & refresh) Tj
+T*
+(? `ALPHA`) Tj
+T*
+(? `BD`) Tj
+T*
+(? `UID`) Tj
+T*
+(? `EDID`) Tj
+T*
+(? `SEC`) Tj
+T*
+() Tj
+T*
+(19.3 EDID Modes) Tj
+T*
+() Tj
+T*
+(? `Mode A` = universal compatibility) Tj
+T*
+(? `Mode B` = native display compatibility) Tj
+T*
+() Tj
+T*
+(If customer has no image:) Tj
+T*
+() Tj
+T*
+(? long-press `K1` for `5 seconds`) Tj
+T*
+(? switch to `Mode B`) Tj
+T*
+() Tj
+T*
+(19.4 Common Fixes) Tj
+T*
+() Tj
+T*
+(No image but all lights on:) Tj
+T*
+() Tj
+T*
+(? long-press `K3` for reset) Tj
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 36 0 R >>
+endobj
+36 0 obj
+<< /Length 1257 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? reconnect cables) Tj
+T*
+(? reset monitor) Tj
+T*
+(? switch EDID) Tj
+T*
+() Tj
+T*
+(Black screen launching games:) Tj
+T*
+() Tj
+T*
+(? disable `G-SYNC`) Tj
+T*
+(? match game resolution to desktop) Tj
+T*
+(? reset GPU control panel settings) Tj
+T*
+() Tj
+T*
+(Repeating / tiled screen:) Tj
+T*
+() Tj
+T*
+(? same resolution on both PCs) Tj
+T*
+(? switch EDID) Tj
+T*
+(? long-press `K3`) Tj
+T*
+() Tj
+T*
+(Artifacts / image shift:) Tj
+T*
+() Tj
+T*
+(? long-press `K3`) Tj
+T*
+(? reboot fuser) Tj
+T*
+() Tj
+T*
+(19.5 Key Support Memory) Tj
+T*
+() Tj
+T*
+(For DC500 issues, first check:) Tj
+T*
+() Tj
+T*
+(? front lights) Tj
+T*
+(? K1 info) Tj
+T*
+(? EDID mode) Tj
+T*
+(? cable quality) Tj
+T*
+(? correct GPU ports) Tj
+T*
+() Tj
+T*
+(20. KM Box Net Setup) Tj
+T*
+(--------------------) Tj
+T*
+() Tj
+T*
+(20.1 Port Layout) Tj
+T*
+() Tj
+T*
+(? `Port #1` -> `Second PC`) Tj
+T*
+(? `Port #2` -> `Main PC`) Tj
+T*
+(? `Port #3 or #4` -> keyboard or mouse) Tj
+T*
+() Tj
+T*
+(20.2 Network Setup) Tj
+T*
+() Tj
+T*
+(? open `Network and Sharing Center`) Tj
+T*
+(? open `Change adapter settings`) Tj
+T*
+(? find the `KM Box` network adapter) Tj
+T*
+(? if missing, unplug/replug KM Box) Tj
+T*
+(? open adapter `Properties`) Tj
+T*
+(? enable `Internet Protocol Version 4 \(TCP/IPv4\)`) Tj
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 38 0 R >>
+endobj
+38 0 obj
+<< /Length 1151 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(20.3 Static IP) Tj
+T*
+() Tj
+T*
+(Set:) Tj
+T*
+() Tj
+T*
+(? `IP Address: 192.168.2.100`) Tj
+T*
+(? `Subnet Mask: 255.255.255.0`) Tj
+T*
+() Tj
+T*
+(20.4 Key Support Memory) Tj
+T*
+() Tj
+T*
+(If KM Box Net does not work:) Tj
+T*
+() Tj
+T*
+(? check ports) Tj
+T*
+(? check adapter visibility) Tj
+T*
+(? check IPv4 enabled) Tj
+T*
+(? check static IP) Tj
+T*
+() Tj
+T*
+(21. KM Box B+ Setup) Tj
+T*
+(-------------------) Tj
+T*
+() Tj
+T*
+(21.1 Port Layout) Tj
+T*
+() Tj
+T*
+(? `Port #1` -> `Second PC`) Tj
+T*
+(? `Port #2` -> `Main PC`) Tj
+T*
+(? `Port #3 or #4` -> keyboard or mouse) Tj
+T*
+() Tj
+T*
+(21.2 Main Idea) Tj
+T*
+() Tj
+T*
+(KM Box B+ can mimic a mouse by using chosen:) Tj
+T*
+() Tj
+T*
+(? `VID`) Tj
+T*
+(? `PID`) Tj
+T*
+() Tj
+T*
+(Customer gets these from:) Tj
+T*
+() Tj
+T*
+(? `http://www.linux-usb.org/usb.ids`) Tj
+T*
+() Tj
+T*
+(21.3 Script Setup) Tj
+T*
+() Tj
+T*
+(? connect KM Box to `Second PC`) Tj
+T*
+(? run `upycraft.exe`) Tj
+T*
+(? ignore font message if shown) Tj
+T*
+(? under `Tools`, use `Board` / `Serial` as needed) Tj
+T*
+() Tj
+T*
+(In script:) Tj
+T*
+() Tj
+T*
+(? find dynamic VID/PID lines) Tj
+T*
+(? find `device.enable\(1\)`) Tj
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 40 0 R >>
+endobj
+40 0 obj
+<< /Length 1150 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? remove `#` from those lines) Tj
+T*
+() Tj
+T*
+(Replace default static values:) Tj
+T*
+() Tj
+T*
+(? `046d`) Tj
+T*
+(? `c07d`) Tj
+T*
+() Tj
+T*
+(With chosen `VID/PID`) Tj
+T*
+() Tj
+T*
+(21.4 Save & Upload) Tj
+T*
+() Tj
+T*
+(? `Ctrl + S`) Tj
+T*
+(? `Tools -> Download and Run`) Tj
+T*
+() Tj
+T*
+(21.5 Reboot KM Box) Tj
+T*
+() Tj
+T*
+(? unplug both blue USB cables) Tj
+T*
+(? wait until screen turns off) Tj
+T*
+(? plug them back in) Tj
+T*
+() Tj
+T*
+(Main PC should then detect the emulated mouse.) Tj
+T*
+() Tj
+T*
+(21.6 Key Support Memory) Tj
+T*
+() Tj
+T*
+(Most common failure points:) Tj
+T*
+() Tj
+T*
+(? wrong ports) Tj
+T*
+(? wrong VID/PID) Tj
+T*
+(? forgot to remove `#`) Tj
+T*
+(? forgot to upload script) Tj
+T*
+(? forgot to reboot KM Box) Tj
+T*
+() Tj
+T*
+(22. Best Support Habit for DMA Tickets) Tj
+T*
+(--------------------------------------) Tj
+T*
+() Tj
+T*
+(Always identify:) Tj
+T*
+() Tj
+T*
+(? card model) Tj
+T*
+(? exact stage) Tj
+T*
+(? which PC they are on) Tj
+T*
+(? exact error) Tj
+T*
+(? screenshot if possible) Tj
+T*
+() Tj
+T*
+(Best troubleshooting order:) Tj
+T*
+() Tj
+T*
+(1. wrong PC?) Tj
+T*
+(2. wrong port?) Tj
+T*
+(3. wrong cable?) Tj
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 43 0 R >> >> /Contents 42 0 R >>
+endobj
+42 0 obj
+<< /Length 1161 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(4. wrong driver?) Tj
+T*
+(5. wrong BIOS setting?) Tj
+T*
+(6. bad speed test?) Tj
+T*
+(7. wrong flash setup?) Tj
+T*
+(8. accessory-specific issue?) Tj
+T*
+() Tj
+T*
+(23. Most Important DMA Support Lessons) Tj
+T*
+(--------------------------------------) Tj
+T*
+() Tj
+T*
+(? many DMA issues are not immediately firmware problems) Tj
+T*
+(? speed test is critical) Tj
+T*
+(? cable and port mistakes are very common) Tj
+T*
+(? BIOS mistakes are very common) Tj
+T*
+(? Makcu, Fuser, and KM Box each have separate setup logic) Tj
+T*
+(? customers often get lost because they do not know which stage they are in) Tj
+T*
+() Tj
+T*
+(24. Final Summary) Tj
+T*
+(-----------------) Tj
+T*
+() Tj
+T*
+(The DMA docs are really teaching one big support idea:) Tj
+T*
+() Tj
+T*
+(Break every problem into a stage.) Tj
+T*
+() Tj
+T*
+(The stages are:) Tj
+T*
+() Tj
+T*
+(? main PC prep) Tj
+T*
+(? second PC drivers) Tj
+T*
+(? speed test) Tj
+T*
+(? troubleshooting) Tj
+T*
+(? firmware prep and flashing) Tj
+T*
+(? accessory setup) Tj
+T*
+() Tj
+T*
+(If you can identify the stage, the ticket becomes much easier to handle.) Tj
+T*
+() Tj
+T*
+(That is the core support skill for DMA.) Tj
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 44
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000246 00000 n 
+0000000373 00000 n 
+0000001852 00000 n 
+0000001979 00000 n 
+0000003254 00000 n 
+0000003381 00000 n 
+0000004804 00000 n 
+0000004932 00000 n 
+0000006009 00000 n 
+0000006138 00000 n 
+0000007446 00000 n 
+0000007575 00000 n 
+0000008833 00000 n 
+0000008962 00000 n 
+0000010262 00000 n 
+0000010391 00000 n 
+0000011769 00000 n 
+0000011898 00000 n 
+0000013251 00000 n 
+0000013380 00000 n 
+0000014661 00000 n 
+0000014790 00000 n 
+0000016069 00000 n 
+0000016198 00000 n 
+0000017533 00000 n 
+0000017662 00000 n 
+0000019037 00000 n 
+0000019166 00000 n 
+0000020441 00000 n 
+0000020570 00000 n 
+0000021757 00000 n 
+0000021886 00000 n 
+0000023212 00000 n 
+0000023341 00000 n 
+0000024651 00000 n 
+0000024780 00000 n 
+0000025984 00000 n 
+0000026113 00000 n 
+0000027316 00000 n 
+0000027445 00000 n 
+0000028659 00000 n 
+trailer
+<< /Size 44 /Root 1 0 R >>
+startxref
+28730
+%%EOF

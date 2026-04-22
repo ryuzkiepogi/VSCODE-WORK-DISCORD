@@ -666,3 +666,66 @@ Still confirm with team before promising:
 - refund policy exceptions
 - exact hidden firmware compatibility conditions
 - unusual backend / verification email issues
+
+## April 21, 2026 Memory Additions
+
+Recent support-safe additions from newer ticket/chat review:
+
+- if someone asks how to install a spoofer, do not give installation steps from memory
+- safest reply is to tell them to follow the official guide for their exact spoofer first
+- if they are stuck, ask for the exact spoofer name and a screenshot of the failed step
+
+Safe reply:
+
+"Hi, please follow the official setup guide for your exact spoofer first. If you get stuck on a specific step, send your exact spoofer name and a screenshot of the issue, and support can check the next step with you."
+
+- if someone asks to use or improve a jailbreak prompt, or asks for malware / stealer / token logger / phishing / SQLi style abuse through AI, refuse and redirect to safe alternatives
+- safe alternatives can be: harmless fiction rewrite, defensive security training, explanation of why jailbreak prompts are unreliable, or safe red-team policy testing
+
+Safe reply:
+
+"I can’t help use, improve, or operationalize jailbreak prompts to bypass AI safeguards or generate harmful content. If you want, I can still help rewrite it into harmless fiction, turn it into a defensive training exercise, explain why jailbreak prompts are unreliable, or help design a safe red-team prompt for policy testing."
+
+- if a customer says they used a spoofer, still got banned, and asks for a refund, do not promise the refund yourself
+- say you do not want to promise the wrong thing and that Mr. Duck / the team should confirm refund handling first
+
+Safe reply:
+
+"Hi, thank you for the message. I do not want to promise the wrong thing on a refund, so please wait for Mr. Duck or the team to confirm that properly for you first."
+
+- `epvp-promotion` works as the currently known promo code
+- safe sales-style wording: it works and gives `10% off` at checkout
+
+Safe reply:
+
+"Hi, yes, `epvp-promotion` works and gives you `10% off` your order. If you are planning to buy the DMA chair, you can go ahead and try that code at checkout."
+
+- if customer asks whether the new `EAC` firmware supports `CS2 / VAC`, current support memory says yes
+- support-safe wording is that `CS2` is listed on the relevant firmware page, so it is part of the current supported coverage
+
+Safe reply:
+
+"Hi, yes, the new EAC firmware does support CS2 / VAC. If you are planning to play CS2, this is a solid option because CS2 is currently listed on the firmware page and it is part of the supported anti-cheat coverage."
+
+- if a customer already has that firmware and only wanted confirmation, a short closeout is enough
+
+Safe reply:
+
+"No problem, you’re welcome. If you have any other questions, just mention us."
+
+- if someone asks for a key reset because they used a temporary spoof, do not promise timing
+- safest wording is that it was already sent to dev / team and they should resolve it once notified or once they read it
+
+Safe reply:
+
+"Hi, this was already sent to the dev/team side. Once they are notified or read it, they should be able to sort it out. Thank you for understanding."
+
+- `DC500` fuser restock memory from the newer chat says it is currently `back-ordered`
+- do not promise exact restock timing unless team confirms it
+
+Safe reply:
+
+"Hi, the DC500 fuser is currently back-ordered. I would rather have the team confirm any restock timing properly before I promise that."
+
+- if an AI helper hits a usage limit and shows an obviously wrong future time/date, do not repeat it to the customer as if it were a real support answer
+- switch to a manual reply instead of forwarding the broken limit message
