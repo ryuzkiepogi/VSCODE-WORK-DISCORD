@@ -24,3 +24,6 @@ License Key
 - add key reset follow-up wording after temporary spoof
 - add `DC500` fuser note: currently back-ordered, no promised ETA without team confirmation
 - do not reuse broken AI usage-limit messages as customer support replies
+- if a customer says the cheat/spoofer was on a USB stick and they removed it before launching, do not treat that as proof they were safe
+- if they later show a `THE FINALS` permanent suspension screenshot, do not guess the exact cause and do not promise a refund without team confirmation
+- AMD-specific loader fix memory: after installing the latest libraries, if the issue still happens on an AMD GPU, close AMD processes in Task Manager, then replace the DLL files in `C:\Program Files\AMD\CNext\CNext` using the provided `Libs` archive

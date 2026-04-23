@@ -1003,3 +1003,39 @@ Hi, the DC500 fuser is currently back-ordered. I would rather have the team conf
 - do not paste that broken message to the customer as support
 - switch to a manual human reply instead
 - if needed, acknowledge the delay without quoting the broken system message
+
+### 29.9 USB Removal / Ban Screenshot Case
+
+- if a customer asks whether having the cheat/spoofer on a `USB stick` and removing the USB before launching the game made it safe, do not say yes
+- if they later show a ban screen, do not guess that the ban was or was not caused by that
+- do not argue with the customer about the ban reason
+- do not promise a refund without team confirmation
+- safest handling:
+- acknowledge the screenshot
+- avoid causal claims
+- point them to the game's own ban/review or appeal process
+- if they ask for compensation/refund, wait for `Mr. Duck` / team confirmation first
+
+Safe reply:
+
+Hi, thank you for the screenshot. I do not want to guess on the exact cause of the ban and give you the wrong answer. For the ban itself, please follow the game's review or appeal process shown there. If you want to ask about refund handling, I would rather have Mr. Duck or the team confirm that properly first.
+
+### 29.10 AMD Libraries / CNext DLL Fix
+
+- if the customer already installed the latest libraries and the issue still happens, and they have an `AMD` graphics card, there is a known AMD-specific fix flow
+- end AMD-related processes in `Task Manager`
+- examples mentioned in team memory:
+- `AMD Radeon`
+- `AMDSrv`
+- `AMDOW`
+- `CPUMetrics`
+- and other AMD-related processes if present
+- then go to the AMD software folder:
+- `C:\Program Files\AMD\CNext\CNext`
+- download and extract the provided `Libs` package
+- copy and replace the `DLL` files into that folder
+- use this carefully as a known fix path and do not freestyle missing DLL names if they were not provided by the team or ticket context
+
+Safe reply:
+
+Please install the latest library package first. If that still does not fix it and you have an AMD graphics card, please close all AMD-related processes in Task Manager, then go to `C:\Program Files\AMD\CNext\CNext`, and replace the DLL files there with the files from the provided `Libs` archive.

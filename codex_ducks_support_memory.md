@@ -105,6 +105,8 @@ Close ticket:
 - `epvp-promotion` is the known promo code and gives `10% off`
 - `DC500` restock should not be promised unless team confirms
 - if an AI helper gives a broken usage-limit message, do not forward that to customers
+- if a customer says they had the cheat/spoofer on a USB stick, removed the USB before launching the game, and still got banned, do not guess that USB removal made it safe
+- for ban screenshots like `THE FINALS - Permanently suspended`, do not argue about the ban cause or promise a refund; tell them to follow the game's appeal/review process and have Mr. Duck / team confirm any refund handling first
 - keep saving new ticket patterns into the handbook / handoff files so another Codex session can reuse them
 
 ## Files To Keep In Sync

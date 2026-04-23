@@ -729,3 +729,36 @@ Safe reply:
 
 - if an AI helper hits a usage limit and shows an obviously wrong future time/date, do not repeat it to the customer as if it were a real support answer
 - switch to a manual reply instead of forwarding the broken limit message
+
+### April 23, 2026 Memory Additions
+
+Ban case memory:
+
+- if a customer says they kept the cheat/spoofer on a `USB stick`, removed the USB, and only then launched the game, do not confirm that this makes them safe
+- if they later show a ban screen such as `THE FINALS - Permanently suspended`, do not guess the exact cause of the ban
+- do not promise a refund yourself on that basis
+- safest path is:
+  - acknowledge the screenshot
+  - say you do not want to guess on ban causation
+  - direct them to the game's own ban/review policy for appeal handling
+  - if they ask about refund handling, wait for `Mr. Duck` / team confirmation first
+
+Safe reply:
+
+"Hi, thank you for the screenshot. I do not want to guess on the exact cause of the ban and give you the wrong answer. For the ban itself, please follow the game's review/appeal process shown there. If you want to ask about refund handling, I would rather have Mr. Duck / the team confirm that properly first."
+
+AMD library fix memory:
+
+- if a loader or product still fails after installing the latest libraries, and the customer has an `AMD` graphics card, there is a known AMD-specific fix flow
+- support order:
+  - install the latest libraries first
+  - if that does not help, confirm they have an AMD GPU
+  - open `Task Manager` and end AMD-related processes such as `AMD Radeon`, `AMDSrv`, `AMDOW`, `CPUMetrics`, and similar AMD processes
+  - go to the AMD software folder, usually `C:\Program Files\AMD\CNext\CNext`
+  - download/extract the replacement `Libs`
+  - copy and replace the `DLL` files into `CNext\CNext`
+- use this as a team-confirmed fix path and do not freestyle missing file names if they were not provided in the ticket/team message
+
+Safe reply:
+
+"Please install the latest library package first. If that still does not fix it and you have an AMD graphics card, please close all AMD-related processes in Task Manager, then go to `C:\Program Files\AMD\CNext\CNext`, and replace the DLL files there with the files from the provided `Libs` archive."
