@@ -1039,3 +1039,31 @@ Hi, thank you for the screenshot. I do not want to guess on the exact cause of t
 Safe reply:
 
 Please install the latest library package first. If that still does not fix it and you have an AMD graphics card, please close all AMD-related processes in Task Manager, then go to `C:\Program Files\AMD\CNext\CNext`, and replace the DLL files there with the files from the provided `Libs` archive.
+
+### 29.11 Exact DMA Service / Firmware Links
+
+- exact `DMA Installation Service` product link:
+- `https://ducks-services.com/store/product/1396-dma-installation-service/`
+- exact lower-tier `BE / COD / BF / FiveM` firmware product link:
+- `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
+- for `Siege`-only sales questions, the saved exact product is:
+- `1:1 Emulated - BE / COD / BF / FiveM`
+- use the exact product link above when the customer asks for the direct link
+- for `Apex` on the `$150` firmware, support-safe website wording is:
+- `1:1 Emulated - ACE / EAC / BE / COD`
+- product link:
+- `https://ducks-services.com/store/product/662-11-emulated-ace-eac-be-cod/`
+
+### 29.12 Webpage Not Secure / VPN First
+
+- if a customer says the loader or website shows a `webpage not secure` warning:
+- first ask them to try a `VPN`
+- if it still fails, ask for:
+- the exact link they clicked
+- a screenshot of the exact warning
+- reason:
+- this can be browser / ISP / network / certificate-path related, so do not guess deeper before seeing the exact warning
+
+Safe reply:
+
+Hi, please try using a VPN first and then open the link again. If it still shows the same warning, please send a screenshot of the exact message and the link you clicked so I can check it properly.

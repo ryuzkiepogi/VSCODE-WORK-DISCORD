@@ -27,3 +27,7 @@ License Key
 - if a customer says the cheat/spoofer was on a USB stick and they removed it before launching, do not treat that as proof they were safe
 - if they later show a `THE FINALS` permanent suspension screenshot, do not guess the exact cause and do not promise a refund without team confirmation
 - AMD-specific loader fix memory: after installing the latest libraries, if the issue still happens on an AMD GPU, close AMD processes in Task Manager, then replace the DLL files in `C:\Program Files\AMD\CNext\CNext` using the provided `Libs` archive
+- saved exact `DMA Installation Service` link: `https://ducks-services.com/store/product/1396-dma-installation-service/`
+- saved exact `BE / COD / BF / FiveM` product link for `Siege`-only asks: `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
+- `Apex` website-safe product page saved: `https://ducks-services.com/store/product/662-11-emulated-ace-eac-be-cod/`
+- if a customer says `webpage not secure`, safe first step is `try a VPN`, then ask for the exact link and screenshot

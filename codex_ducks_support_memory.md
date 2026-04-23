@@ -107,6 +107,13 @@ Close ticket:
 - if an AI helper gives a broken usage-limit message, do not forward that to customers
 - if a customer says they had the cheat/spoofer on a USB stick, removed the USB before launching the game, and still got banned, do not guess that USB removal made it safe
 - for ban screenshots like `THE FINALS - Permanently suspended`, do not argue about the ban cause or promise a refund; tell them to follow the game's appeal/review process and have Mr. Duck / team confirm any refund handling first
+- DMA Installation Service direct link:
+  - `https://ducks-services.com/store/product/1396-dma-installation-service/`
+- exact lower-tier BE firmware product link:
+  - `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
+- for `Siege`-only sales questions, the saved exact product is:
+  - `1:1 Emulated - BE / COD / BF / FiveM`
+- if a customer gets a loader/download site warning like `webpage not secure`, a safe first reply is to try a `VPN`, then ask for the exact link and screenshot if it still fails
 - keep saving new ticket patterns into the handbook / handoff files so another Codex session can reuse them
 
 ## Files To Keep In Sync

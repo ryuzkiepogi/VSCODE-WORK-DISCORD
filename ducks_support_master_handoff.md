@@ -927,3 +927,30 @@ AMD library fix memory:
 Safe reply:
 
 "Please install the latest library package first. If that still does not fix it and you have an AMD graphics card, please close all AMD-related processes in Task Manager, then go to `C:\Program Files\AMD\CNext\CNext`, and replace the DLL files there with the files from the provided `Libs` archive."
+
+Additional confirmed support memory:
+
+- exact `DMA Installation Service` product link:
+  - `https://ducks-services.com/store/product/1396-dma-installation-service/`
+- exact lower-tier `BE / COD / BF / FiveM` firmware product link:
+  - `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
+- for `Siege`-only firmware sales questions, the saved product is:
+  - `1:1 Emulated - BE / COD / BF / FiveM`
+  - product link: `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
+- for `Apex` on the `$150` firmware, support-safe website wording is:
+  - `1:1 Emulated - ACE / EAC / BE / COD`
+  - product link: `https://ducks-services.com/store/product/662-11-emulated-ace-eac-be-cod/`
+- if a customer says the loader/download page says `webpage not secure`, a safe first step is:
+  - ask them to try a `VPN`
+  - if it still fails, ask for the exact link and a screenshot
+
+Safe replies:
+
+"Hi, please try using a VPN first and then open the link again. If it still shows the same warning, please send a screenshot of the exact message and the link you clicked so I can check it properly."
+
+"Hi, for Siege only, the firmware you want is `1:1 Emulated - BE / COD / BF / FiveM`.
+
+Here is the link:
+https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/
+
+Once your mini PC arrives, just notify us and we can help you with the next step."
