@@ -954,3 +954,120 @@ Here is the link:
 https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/
 
 Once your mini PC arrives, just notify us and we can help you with the next step."
+
+### April 24, 2026 Memory Additions
+
+Budget `R6 DMA` sales memory:
+
+- for a budget `Rainbow Six Siege` DMA setup, Mr. Duck's direct recommendation was:
+  - `Duck's DMA - 75t Ultimate Bundle`
+  - `R6 Caruso [DMA]`
+  - mini PC: `https://amzn.to/3DJQzkF`
+- saved exact links:
+  - bundle: `https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/`
+  - cheat: `https://ducks-services.com/store/product/1557-r6-caruso-30-days-dma/`
+- saved rough pricing summary from Mr. Duck:
+  - Duck's Services: about `$320 + $47 / month`
+  - Amazon Mini PC: about `$200 - $300`
+- if the customer asks whether there are longer `R6 DMA` subscriptions or whether `Caruso` is the best option:
+  - saved owner wording is that `Caruso` is the best on the market
+  - it is their most popular `R6 DMA` by far
+- do not invent unsupported longer subscription terms unless the product/store/team confirms them
+
+Safe reply:
+
+"Hi, for a budget R6 DMA setup, the saved recommendation is the `Duck's DMA - 75t Ultimate Bundle` together with `R6 Caruso [DMA]`.
+
+Bundle:
+https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/
+
+Cheat:
+https://ducks-services.com/store/product/1557-r6-caruso-30-days-dma/
+
+Mini PC:
+https://amzn.to/3DJQzkF
+
+As a rough estimate, that setup was summarized as about `$320 + $47/month` from Duck's Services, plus around `$200-$300` for the mini PC."
+
+DNA ID exception memory:
+
+- do not assume `DNA ID` is required for every firmware claim
+- saved specific exception from Mr. Duck:
+  - for a `75t` `BE emu firmware` case, the customer did not need to provide `DNA ID`
+- safest takeaway:
+  - treat `DNA ID` as firmware-dependent
+  - if the case matches a known `BE emu 75t` flow, do not force the customer to wait on `DNA ID`
+  - if unsure, confirm with team instead of guessing
+
+Safe reply:
+
+"Hi, for this firmware type we do not need the DNA ID, so you do not need to wait on that part. We can continue from here."
+
+Firmware blocked speed test memory:
+
+- confirmed support flow from Mr. Duck when checking if firmware is blocked:
+  - close all games and cheats completely
+  - open DMA tool and run a speed test on desktop
+  - if speeds look normal, launch the game
+  - run the same speed test while in-game
+- interpretation:
+  - speeds work on desktop and in-game = firmware is likely functional / not blocked
+  - speeds work on desktop but not in-game = firmware is likely being blocked
+  - no speeds at all = likely setup or connection issue
+- ask customer to send results after testing
+
+Safe reply:
+
+"Hi, please try the speed test flow first. Close all games and cheats, run a speed test on desktop, then launch the game and run the speed test again in-game.
+
+If speeds work on both desktop and in-game, the firmware is likely not blocked. If speeds only work on desktop but not in-game, that points to the firmware being blocked. If there are no speeds at all, that points more to a setup or connection issue.
+
+Please send the results after testing."
+
+Arma Reforger / DControl memory:
+
+- for an Arma Reforger pre-sale question involving modded servers / ReforgedZ style servers, Mr. Duck recommended `Malevolence`
+- customer later bought `Malevolence`
+- `DControl` unlock password from Mr. Duck:
+  - `sordum`
+- do not broadly guarantee every modded server works unless team confirms for that exact server/mod
+
+Safe reply:
+
+"Hi, for Arma Reforger, Mr. Duck recommended `Malevolence` for this case. I still would not want to guarantee every custom/modded server unless the team confirms that exact server setup, but that is the saved recommendation."
+
+`$50 FW` / virtualization memory:
+
+- customer asked if the `$50 FW` works with virtualization on
+- Mr. Duck confirmed:
+  - yes
+- saved support-safe answer:
+  - for the `$50 FW`, virtualization on was confirmed as okay by Mr. Duck
+- caveat:
+  - do not generalize this to every DMA/firmware issue
+  - virtualization is still a common setting to check during DMA troubleshooting unless the exact product/team confirmation says otherwise
+
+Safe reply:
+
+"Hi, yes, Mr. Duck confirmed the `$50 FW` works with virtualization on."
+
+COD DMA bundle / installation memory:
+
+- customer asked if the `$319` DMA bundle includes firmware preinstalled
+- BMP confirmed:
+  - firmware does not come preinstalled
+  - if customer pays the `$20` installation fee, team can handle setup/flashing
+  - DMA works great on COD / BO7 / Warzone
+  - BMP said many top 100 league players use DMA and he plays COD strictly with DMA
+- customer asked which bundle is offered
+- Mr. Duck said the most popular COD bundle is:
+  - `Duck's DMA - 75t Ultimate Bundle`
+  - link: `https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/`
+- do not promise preinstalled firmware unless team specifically says it for that order
+
+Safe reply:
+
+"Hi, firmware does not come preinstalled with the DMA bundle. If you want us to handle the setup/flashing for you, you can purchase the `$20` DMA Installation Service.
+
+For COD / BO7 / Warzone, the most popular bundle Mr. Duck recommended is the `Duck's DMA - 75t Ultimate Bundle`:
+https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/"

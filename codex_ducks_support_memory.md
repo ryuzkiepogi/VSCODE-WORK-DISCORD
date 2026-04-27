@@ -113,6 +113,40 @@ Close ticket:
   - `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
 - for `Siege`-only sales questions, the saved exact product is:
   - `1:1 Emulated - BE / COD / BF / FiveM`
+- do not assume `DNA ID` is required for every firmware type
+- saved exception:
+  - for a specific `75t` `BE emu firmware` case, Mr. Duck said the `DNA ID` was not needed
+  - keep this phrasing cautious and do not generalize it to every firmware unless team confirms
+- for a budget `R6 DMA` setup, the saved owner recommendation is the `Duck's DMA - 75t Ultimate Bundle` plus `R6 Caruso [DMA]`
+- saved budget `R6 DMA` links:
+  - bundle: `https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/`
+  - cheat: `https://ducks-services.com/store/product/1557-r6-caruso-30-days-dma/`
+- saved mini PC used with that recommendation:
+  - `https://amzn.to/3DJQzkF`
+- saved pricing summary from Mr. Duck for that setup:
+  - Duck's Services: about `$320 + $47/month`
+  - Amazon Mini PC: about `$200-$300`
+- saved owner wording:
+  - `Caruso` is the most popular `R6 DMA` and was described as the best option on the market
+- firmware blocked check from Mr. Duck:
+  - close all games and cheats
+  - run speed test on desktop
+  - launch game and run speed test in-game
+  - speeds work desktop + in-game = firmware likely functional / not blocked
+  - speeds work desktop only, not in-game = firmware likely blocked
+  - no speeds at all = likely setup or connection issue
+- Arma Reforger pre-sale memory:
+  - for Arma Reforger / modded server interest, Mr. Duck recommended `Malevolence`
+  - `DControl` unlock password from Mr. Duck: `sordum`
+- $50 firmware / virtualization memory:
+  - Mr. Duck confirmed the `$50 FW` works with virtualization on
+  - keep broader DMA troubleshooting guidance cautious because virtualization is still commonly checked for other DMA issues
+- COD DMA sales memory:
+  - firmware does not come preinstalled on DMA bundles
+  - optional DMA Installation Service is `$20` if customer wants setup/flashing handled
+  - BMP confirmed DMA works great on COD / BO7 / Warzone
+  - Mr. Duck said the most popular COD bundle is `Duck's DMA - 75t Ultimate Bundle`
+  - link: `https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/`
 - if a customer gets a loader/download site warning like `webpage not secure`, a safe first reply is to try a `VPN`, then ask for the exact link and screenshot if it still fails
 - keep saving new ticket patterns into the handbook / handoff files so another Codex session can reuse them
 
