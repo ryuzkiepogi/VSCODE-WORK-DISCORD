@@ -31,6 +31,11 @@ License Key
 - saved exact `BE / COD / BF / FiveM` product link for `Siege`-only asks: `https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/`
 - `Apex` website-safe product page saved: `https://ducks-services.com/store/product/662-11-emulated-ace-eac-be-cod/`
 - if a customer says `webpage not secure`, safe first step is `try a VPN`, then ask for the exact link and screenshot
+- saved exact `Sync HWID Spoofer` link: `https://ducks-services.com/store/product/1804-sync-hwid-spoofer/`
+- COD perm-ban memory: `Sync HWID Spoofer` was treated as fine for normal COD use, but `TPM` or ranked-ban questions still need `Trix` / team confirmation
+- COD DMA firmware memory: older firmware from around `2025` was said to need an update for `EAC` because it is blocked there, while `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`; do not phrase this as a guaranteed `undetectable` claim
+- new `2nd PC` / mini PC memory: changing to a different `2nd PC` does not automatically mean the customer needs a new firmware flash; saved `Trix` guidance was that the firmware is on the DMA card once flashed, so a DMA-compatible new mini PC can still be fine without reflashing just because the PC changed
+- if a customer asks whether a `USB to Type-C` adapter will definitely work on a mini PC with no native `Type-C` port, do not hard-promise that from memory alone; confirm that exact adapter/cable detail first if needed
 - budget `R6 DMA` saved recommendation from Mr. Duck: `Duck's DMA - 75t Ultimate Bundle` + `R6 Caruso [DMA]`
 - saved exact bundle link: `https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/`
 - saved exact `R6 Caruso [DMA]` link: `https://ducks-services.com/store/product/1557-r6-caruso-30-days-dma/`

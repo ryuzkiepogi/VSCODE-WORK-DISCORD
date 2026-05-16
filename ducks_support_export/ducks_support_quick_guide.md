@@ -246,6 +246,13 @@ Check these before assuming something advanced is broken:
 - support memory should still be phrased safely as delivery can depend on the setup and may take up to `24 hours`
 - avoid overcommitting to a narrow delivery window unless the team confirms it for that product
 
+`DC500 240Hz / color issue`
+
+- if the `DC500` light is `static red`, that part is expected
+- if the customer cannot get `240Hz` or says the colors look bad, first suspect the `2nd PC` or cable quality
+- team memory says the included cable may not be good enough for `240Hz`
+- ask for the exact monitor model, cable type, and `2nd PC` specs before assuming a deeper hardware issue
+
 `EFT Next feature questions`
 
 - if a customer asks whether they can use all features, including risky ones, even in `PVE`, do not answer with a blanket yes from memory alone
@@ -474,3 +481,9 @@ The safest Duck's Services support habit is simple:
 - gather the missing details
 - use the official docs and support tool first
 - escalate when the answer is not clear
+
+## 2026-05-09 Memory Add
+
+- older firmware from around `2025` was said to need an update for `EAC` because it is blocked there
+- `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`
+- do not turn that into a `100% safe` or guaranteed `undetectable` reply

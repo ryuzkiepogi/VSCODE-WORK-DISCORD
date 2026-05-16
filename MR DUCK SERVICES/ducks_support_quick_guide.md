@@ -474,9 +474,3 @@ The safest Duck's Services support habit is simple:
 - gather the missing details
 - use the official docs and support tool first
 - escalate when the answer is not clear
-
-## 2026-05-09 Memory Add
-
-- older firmware from around `2025` was said to need an update for `EAC` because it is blocked there
-- `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`
-- do not turn that into a `100% safe` or guaranteed `undetectable` reply

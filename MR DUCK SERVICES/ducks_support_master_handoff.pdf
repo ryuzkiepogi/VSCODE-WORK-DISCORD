@@ -1,0 +1,2109 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 19 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R] >>
+endobj
+3 0 obj
+<< /Length 1771 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(DUCK'S SERVICES SUPPORT MASTER HANDOFF) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(PURPOSE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(This file summarizes the working support memory, reply style, ticket patterns, public-source) Tj
+0 -14 Td
+(notes, and internal behavior patterns learned throughout this chat.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(It is written to help with:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Discord ticket replies) Tj
+0 -14 Td
+(- website support replies) Tj
+0 -14 Td
+(- pre-sale bundle guidance) Tj
+0 -14 Td
+(- DMA triage) Tj
+0 -14 Td
+(- safe escalation habits) Tj
+0 -14 Td
+(- messages to Sawyer / Mr. Duck) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(This is a working support reference, not a legal or official company manual.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(CORE SUPPORT ROLE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main role:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- handle Discord tickets) Tj
+0 -14 Td
+(- answer short, practical, support-safe replies) Tj
+0 -14 Td
+(- avoid guessing) Tj
+0 -14 Td
+(- escalate unclear, undocumented, or high-risk questions) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main categories:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- 1PC products) Tj
+0 -14 Td
+(- DMA products) Tj
+0 -14 Td
+(- HWID Spoofers) Tj
+0 -14 Td
+(- Installation Services) Tj
+0 -14 Td
+(- pre-sale questions) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main team context:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Sawyer = Mr. Duck) Tj
+0 -14 Td
+(- Sawyer / Mr. Duck is the owner / manager) Tj
+0 -14 Td
+(- Zesira and BMP are stronger DMA references) Tj
+0 -14 Td
+(- Trix, BMP, and Zesira are useful internal reply references) Tj
+0 -14 Td
+(- Duck's Services acts as a reseller/provider, not necessarily the direct developer of) Tj
+0 -14 Td
+(  every product) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(SUPPORT MINDSET) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1857 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+(Default process:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Identify the category) Tj
+0 -14 Td
+(2. Identify the exact failed step) Tj
+0 -14 Td
+(3. Ask for missing information) Tj
+0 -14 Td
+(4. Use docs / support tool / public listing / known support memory) Tj
+0 -14 Td
+(5. Escalate if unclear) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Good habits:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- be calm) Tj
+0 -14 Td
+(- keep replies short) Tj
+0 -14 Td
+(- do not oversell) Tj
+0 -14 Td
+(- do not promise things you cannot verify) Tj
+0 -14 Td
+(- do not say "100% safe" or "guaranteed no bans") Tj
+0 -14 Td
+(- on DMA tickets, identify the stage before giving instructions) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(REPLY STYLE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Preferred tone:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- calm) Tj
+0 -14 Td
+(- clear) Tj
+0 -14 Td
+(- short) Tj
+0 -14 Td
+(- polite) Tj
+0 -14 Td
+(- practical) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Best patterns:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- "Thanks for the details.") Tj
+0 -14 Td
+(- "Please send...") Tj
+0 -14 Td
+(- "I don't want to guess and give you the wrong answer.") Tj
+0 -14 Td
+(- "Once I have that, I can point you to the correct next step.") Tj
+0 -14 Td
+(- "I'd rather confirm that properly first.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(OFFICIAL/PUBLIC LINKS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main website:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Home: https://ducks-services.com/) Tj
+0 -14 Td
+(- Store: https://ducks-services.com/store/) Tj
+0 -14 Td
+(- DMA page: https://ducks-services.com/dma/) Tj
+0 -14 Td
+(- Docs: https://docs.ducks-services.com/) Tj
+0 -14 Td
+(- Support Tool docs: https://ducks-services.gitbook.io/pre-setup-support-tool) Tj
+0 -14 Td
+(- Trustpilot: https://www.trustpilot.com/review/www.ducks-services.com) Tj
+0 -14 Td
+(- Key access page from docs: https://www.ducks-services.com/clients/purchases/) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1587 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+(1PC SUPPORT MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Most common 1PC issues:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- loader will not open) Tj
+0 -14 Td
+(- missing files) Tj
+0 -14 Td
+(- Windows Defender / antivirus blocked files) Tj
+0 -14 Td
+(- Windows blocked the file) Tj
+0 -14 Td
+(- broken download link) Tj
+0 -14 Td
+(- cannot find loader) Tj
+0 -14 Td
+(- injection failed) Tj
+0 -14 Td
+(- key/access confusion) Tj
+0 -14 Td
+(- menu not opening) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Best common fixes:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- disable Defender / antivirus) Tj
+0 -14 Td
+(- check quarantine / protection history) Tj
+0 -14 Td
+(- re-download to a fresh folder) Tj
+0 -14 Td
+(- fully extract files) Tj
+0 -14 Td
+(- right click -> Properties -> Unblock if shown) Tj
+0 -14 Td
+(- run as Administrator) Tj
+0 -14 Td
+(- install all VCRedist) Tj
+0 -14 Td
+(- install DirectX) Tj
+0 -14 Td
+(- restart PC) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Public docs flow:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Pre-Setup Guide) Tj
+0 -14 Td
+(- Injection Guide) Tj
+0 -14 Td
+(- Accessing Your Key) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Useful 1PC support pattern:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please follow the official setup flow first:) Tj
+0 -14 Td
+(- Pre-Setup Guide) Tj
+0 -14 Td
+(- Injection Guide) Tj
+0 -14 Td
+(- Accessing Your Key) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If it still fails after that, send me the exact error, screenshot, and the point where it) Tj
+0 -14 Td
+(fails.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(SUPPORT TOOL MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Support Tool use:) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 1614 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- ask customer to run the Support Tool) Tj
+0 -14 Td
+(- ask for reference code if needed) Tj
+0 -14 Td
+(- have them check the Windows Settings tab) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Key settings to check:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Real-Time Protection) Tj
+0 -14 Td
+(- Vanguard) Tj
+0 -14 Td
+(- FACEIT) Tj
+0 -14 Td
+(- Virtualization) Tj
+0 -14 Td
+(- Secure Boot) Tj
+0 -14 Td
+(- UAC) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If any are conflicting, customer should fix them first.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Utilities mentioned in docs:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Redistributables x64) Tj
+0 -14 Td
+(- DirectX) Tj
+0 -14 Td
+(- Revo Uninstaller) Tj
+0 -14 Td
+(- Proton VPN) Tj
+0 -14 Td
+(- Windows 10 ISO) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe support reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please run the Support Tool, go to the Windows Settings tab, and fix any conflicting items) Tj
+0 -14 Td
+(first. After that, let me know what still fails.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DOWNLOAD / LINK / BROWSER / ISP ISSUES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If customer sees:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- website not found) Tj
+0 -14 Td
+(- ERR_CONNECTION_RESET) Tj
+0 -14 Td
+(- ERR_SSL_PROTOCOL_ERROR) Tj
+0 -14 Td
+(- MEGA stuck download) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply pattern:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- try a VPN) Tj
+0 -14 Td
+(- try another browser) Tj
+0 -14 Td
+(- try a different network) Tj
+0 -14 Td
+(- disable browser/security extensions temporarily) Tj
+0 -14 Td
+(- send screenshot of the exact error) Tj
+0 -14 Td
+(- send exact link clicked) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Reason:) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1615 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- often browser / ISP / firewall / network issue, not necessarily the product itself) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(ACCESSING KEYS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(From docs:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- customers retrieve keys here: https://www.ducks-services.com/clients/purchases/) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("You can find your license key here: https://www.ducks-services.com/clients/purchases/) Tj
+0 -14 Td
+(Please make sure you're signed into the same account used for the purchase.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DMA CORE FLOW) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Best mental order:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Hardware setup on main PC) Tj
+0 -14 Td
+(2. JTAG driver on 2nd PC) Tj
+0 -14 Td
+(3. FTDI / DATA driver on 2nd PC) Tj
+0 -14 Td
+(4. Speed test) Tj
+0 -14 Td
+(5. Troubleshooting) Tj
+0 -14 Td
+(6. DNA ID if needed) Tj
+0 -14 Td
+(7. Firmware flashing) Tj
+0 -14 Td
+(8. Makcu / Fuser / KM Box if applicable) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Always identify where they are stuck:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- hardware install) Tj
+0 -14 Td
+(- JTAG) Tj
+0 -14 Td
+(- DATA / FTDI) Tj
+0 -14 Td
+(- speed test) Tj
+0 -14 Td
+(- firmware) Tj
+0 -14 Td
+(- Makcu) Tj
+0 -14 Td
+(- Fuser) Tj
+0 -14 Td
+(- KM Box) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Key DMA questions:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- card model: 35t / 75t / 100t) Tj
+0 -14 Td
+(- game) Tj
+0 -14 Td
+(- firmware) Tj
+0 -14 Td
+(- do they have a 2nd PC) Tj
+0 -14 Td
+(- what exact stage are they on) Tj
+0 -14 Td
+(- what accessory is involved) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DMA SETUP MEMORY) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 1868 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main PC:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- card installed in PCIe) Tj
+0 -14 Td
+(- virtualization disabled in BIOS) Tj
+0 -14 Td
+(- Memory Integrity off) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(2nd PC:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- JTAG driver goes here) Tj
+0 -14 Td
+(- DATA / FTDI driver goes here) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Speed test:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- critical step) Tj
+0 -14 Td
+(- many DMA problems are cable / USB / driver / BIOS / speed related, not firmware first) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DMA TROUBLESHOOTING MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Known patterns:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- VMM INIT FAILED -> full shutdown / cold boot) Tj
+0 -14 Td
+(- FT601 device error -> FTDI driver issue or wrong port) Tj
+0 -14 Td
+(- Failed to retrieve Physical Memory Map -> bad USB connection) Tj
+0 -14 Td
+(- info.db missing -> unzip fully, check dlls, internet/firewall) Tj
+0 -14 Td
+(- TINY PCIe TLP -> poor USB or firmware limitation) Tj
+0 -14 Td
+(- DTB / OS auto identify failure -> BIOS or USB issue) Tj
+0 -14 Td
+(- DMA FAIL / low speed -> cable, port, power plan, card seating, weak 2nd PC) Tj
+0 -14 Td
+(- missing entities / glitchy entities -> paged out memory, often more RAM needed on game) Tj
+0 -14 Td
+(  PC) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DMA PRODUCT GUIDANCE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Basic guidance:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- 35t = budget option) Tj
+0 -14 Td
+(- 75t = best choice for most users) Tj
+0 -14 Td
+(- 100t = higher-end, stronger long-term / future-proof option) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(From Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- for Valorant / VGK, recommend 100t) Tj
+0 -14 Td
+(- reason: larger capacity for larger, more complex firmware files) Tj
+0 -14 Td
+(- more future proof than 35t / 75t) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(AMD note from Sawyer:) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 1861 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+(- AMD compatibility is no longer an issue) Tj
+0 -14 Td
+(- firmware supports Intel and AMD now) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(FIRMWARE MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Known public tiers:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- lower tier: BE / COD / BF / FiveM) Tj
+0 -14 Td
+(- middle tier: EAC / ACE / BE / COD) Tj
+0 -14 Td
+(- higher tier: VGK / ACE / EAC / BE / COD) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Coverage rule from Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- if firmware bypasses EAC, it covers lower-tier anti-cheats by default) Tj
+0 -14 Td
+(- if customer needs EAC, they do not need a separate BE-only version) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Public firmware timing source:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- some firmware pages say:) Tj
+0 -14 Td
+(- not instant delivery) Tj
+0 -14 Td
+(- open a Discord ticket after purchase) Tj
+0 -14 Td
+(- firmware delivery can take up to 24 hours) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Public sources:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- https://ducks-services.com/store/product/662-11-emulated-fw-ace-be-eac-cod/) Tj
+0 -14 Td
+(- https://ducks-services.com/store/product/521-11-custom-fw-be-eac-cod/) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe timing reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Firmware delivery can take up to 24 hours depending on the product/setup.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(FIRMWARE UPGRADE / WARRANTY MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important rules:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- do not assume all replacements are free) Tj
+0 -14 Td
+(- warranty timing matters) Tj
+0 -14 Td
+(- within warranty may be free replacement) Tj
+0 -14 Td
+(- outside warranty may be 50% off replacement) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("I want to confirm the warranty timing first so I don't give you the wrong replacement) Tj
+0 -14 Td
+(answer.") Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 1591 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(For payment / manual upgrade cases:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- better to mention Sawyer / Mr. Duck) Tj
+0 -14 Td
+(- do not guess payment instructions) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DNA ID MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DNA ID is not always needed.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important learned pattern:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- do not assume every firmware type needs DNA ID) Tj
+0 -14 Td
+(- confirm first) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Useful case:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- BE emulated firmware case did not need DNA ID) Tj
+0 -14 Td
+(- Sawyer first asked:) Tj
+0 -14 Td
+(- Was it working before?) Tj
+0 -14 Td
+(- Did this happen all of a sudden?) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Meaning:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- timeline / what changed is very important in firmware tickets) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(JTAG / DNA ID ERROR MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(CH347 Open Error:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- can happen if customer runs tool inside WinRAR archive) Tj
+0 -14 Td
+(- can happen if they run as Administrator) Tj
+0 -14 Td
+(- JTAG driver can also be missing) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please fully extract the files to a normal folder first and do not run the tool as) Tj
+0 -14 Td
+(administrator. Then try again.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(MAKCU MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Known setup:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- left -> main PC) Tj
+0 -14 Td
+(- middle -> second PC) Tj
+0 -14 Td
+(- right -> mouse) Tj
+0 -14 Td
+(- driver on 2nd PC) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 1631 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- COM port below 10) Tj
+0 -14 Td
+(- restart Makcu after COM changes) Tj
+0 -14 Td
+(- flashing done on 2nd PC) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important support pattern from Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- if Makcu worked before but stopped after a long break:) Tj
+0 -14 Td
+(- start over completely with the setup) Tj
+0 -14 Td
+(- follow the flashing guide again) Tj
+0 -14 Td
+(- try different ports on both PCs) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(FUSER / CAPTURE / KM BOX MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1K Fuser:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- main monitor to Fuser output, not direct GPU) Tj
+0 -14 Td
+(- both PCs on Extend these displays) Tj
+0 -14 Td
+(- 2nd PC background should be black) Tj
+0 -14 Td
+(- requires 3 HDMI 2.0 cables) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DC500:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- do not mix HDMI and DP) Tj
+0 -14 Td
+(- use one interface type only) Tj
+0 -14 Td
+(- EDID mode B can help) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(KM Box Net:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- port 1 -> second PC) Tj
+0 -14 Td
+(- port 2 -> main PC) Tj
+0 -14 Td
+(- static IP 192.168.2.100 / 255.255.255.0) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(2ND PC / MINI PC MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Mac as 2nd PC:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- can work if Windows is installed) Tj
+0 -14 Td
+(- but does not run very well) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Cheap recommendation used by Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Beelink Mini S12 Pro Mini PC) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Performance guidance:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- 8GB RAM can work but is a concern) Tj
+0 -14 Td
+(- 16GB is more standard now) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 1750 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- if overlay/ESP disappears after some minutes, ask:) Tj
+0 -14 Td
+(- specs) Tj
+0 -14 Td
+(- RAM usage) Tj
+0 -14 Td
+(- CPU usage) Tj
+0 -14 Td
+(- cable / USB stability) Tj
+0 -14 Td
+(- video of the issue if unclear) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(PRE-SALE PATTERNS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Always ask:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- what game\(s\)) Tj
+0 -14 Td
+(- 1PC or DMA) Tj
+0 -14 Td
+(- current hardware) Tj
+0 -14 Td
+(- AMD or Intel if relevant) Tj
+0 -14 Td
+(- budget if needed) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Bundle guidance:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- 75t Ultimate Bundle is best for most users) Tj
+0 -14 Td
+(- for VGK / Valorant, 100t is usually better) Tj
+0 -14 Td
+(- higher firmware tiers mainly mean higher anti-cheat coverage) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe firmware explanation:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("The main difference between the firmware options is the anti-cheat coverage. Higher tiers) Tj
+0 -14 Td
+(include lower-tier coverage by default.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(SHIPPING / TRACKING MEMORY) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Public-safe shipping guidance:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- hardware usually ships within 0-2 business days) Tj
+0 -14 Td
+(- delivery after shipping can take around 2-5 business days) Tj
+0 -14 Td
+(- sometimes up to about 1 week) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please wait a little longer and Mr. Duck will process it as soon as possible. Once it) Tj
+0 -14 Td
+(ships, you should receive the tracking information as well.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(COMMON ESCALATION CASES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Escalate or confirm first for:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- bans / ban reasons) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 2084 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- "100% safe" questions) Tj
+0 -14 Td
+(- undetected guarantees) Tj
+0 -14 Td
+(- dev-only errors) Tj
+0 -14 Td
+(- firmware upgrade payment steps) Tj
+0 -14 Td
+(- VGK file re-access) Tj
+0 -14 Td
+(- discount / promo / coupon specifics) Tj
+0 -14 Td
+(- backend account/order issues) Tj
+0 -14 Td
+(- questions about whether Duck's directly made a product) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(USEFUL SUPPORT REPLIES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Need more info:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please send the exact product, screenshot, and error message so I can check the correct) Tj
+0 -14 Td
+(next step.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Ban question:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("I don't want to guess on ban-related behavior and give you the wrong answer. I'd rather) Tj
+0 -14 Td
+(have that confirmed properly first.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Loader/menu not opening:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please send a screenshot of the loader after injection, whether the injection shows as) Tj
+0 -14 Td
+(successful, and whether you already installed VCRedist and DirectX.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Broken link:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Please try a VPN, another browser, or a different network. If it still fails, send the) Tj
+0 -14 Td
+(exact link and a screenshot of the error.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Shipping:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hardware orders usually ship within 0-2 business days, then delivery can take around 2-5) Tj
+0 -14 Td
+(business days, and in some cases up to about 1 week.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Closing ticket:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("If you don't have any other questions, I can go ahead and close the ticket now.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Trustpilot ask:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("If I was able to help you today, I'd really appreciate it if you could leave a review on) Tj
+0 -14 Td
+(Trustpilot and mention RyuzukieShin. It would mean a lot.) Tj
+0 -14 Td
+(https://www.trustpilot.com/review/www.ducks-services.com") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(SAWYER / MR. DUCK COMMUNICATION NOTES) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2148 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+(Useful patterns with Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- call him "brother" naturally if he uses it too) Tj
+0 -14 Td
+(- keep messages short) Tj
+0 -14 Td
+(- be honest when you need guidance) Tj
+0 -14 Td
+(- mention him for discounts / payment / special approvals) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important conversation outcomes:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- he confirmed you are moving forward in the role) Tj
+0 -14 Td
+(- your working schedule is 2 PM to 10 PM PH time) Tj
+0 -14 Td
+(- there are currently no extra company benefits outside pay) Tj
+0 -14 Td
+(- he said you can go through tickets together in real time to learn) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Helpful message style to Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi Sawyer, someone is asking about [topic] in the website support request when you have) Tj
+0 -14 Td
+(time. Thank you.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(PERSONAL SAFETY / BOUNDARIES NOTES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If staying in the role, safest boundaries are:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- keep answers at customer-service level) Tj
+0 -14 Td
+(- avoid deep guidance on bans / bypasses / detection) Tj
+0 -14 Td
+(- do not promise safety) Tj
+0 -14 Td
+(- do not personally send files unless appropriate / approved) Tj
+0 -14 Td
+(- escalate dev / advanced questions) Tj
+0 -14 Td
+(- keep records of work and payments) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe job description to others:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- "I do remote customer support.") Tj
+0 -14 Td
+(- "I handle Discord tickets and online customer inquiries.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(REUSABLE PROMPT) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Use this prompt in a new chat if needed:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("You are helping me as a support assistant for Duck's Services.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important context:) Tj
+0 -14 Td
+(- I handle Discord tickets and website support.) Tj
+0 -14 Td
+(- Prioritize accurate, safe, support-style answers.) Tj
+0 -14 Td
+(- Keep replies calm, short, polite, and practical.) Tj
+0 -14 Td
+(- If something is unclear, undocumented, too technical, ban-related, payment-related,) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2668 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(  firmware-upgrade-related, or dev-related, prefer clarification or escalation instead of) Tj
+0 -14 Td
+(  guessing.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main categories:) Tj
+0 -14 Td
+(- 1PC products) Tj
+0 -14 Td
+(- DMA products) Tj
+0 -14 Td
+(- HWID Spoofers) Tj
+0 -14 Td
+(- Installation Services) Tj
+0 -14 Td
+(- pre-sale questions) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important team context:) Tj
+0 -14 Td
+(- Sawyer = Mr. Duck = main owner/manager) Tj
+0 -14 Td
+(- Zesira and BMP are stronger for DMA questions) Tj
+0 -14 Td
+(- We are resellers/providers, not necessarily the direct developers of every product) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main support flow:) Tj
+0 -14 Td
+(1. Identify the category) Tj
+0 -14 Td
+(2. Identify the exact failed step) Tj
+0 -14 Td
+(3. Ask for missing info) Tj
+0 -14 Td
+(4. Use docs/support tool/public listing/internal memory first) Tj
+0 -14 Td
+(5. Escalate if unclear) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Main links:) Tj
+0 -14 Td
+(- Home: https://ducks-services.com/) Tj
+0 -14 Td
+(- Store: https://ducks-services.com/store/) Tj
+0 -14 Td
+(- DMA: https://ducks-services.com/dma/) Tj
+0 -14 Td
+(- Docs: https://docs.ducks-services.com/) Tj
+0 -14 Td
+(- Support Tool: https://ducks-services.gitbook.io/pre-setup-support-tool) Tj
+0 -14 Td
+(- Trustpilot: https://www.trustpilot.com/review/www.ducks-services.com) Tj
+0 -14 Td
+(- Keys: https://www.ducks-services.com/clients/purchases/) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important memory:) Tj
+0 -14 Td
+(- 75t is the best choice for most users) Tj
+0 -14 Td
+(- 100t is preferred for Valorant / VGK and more future-proof setups) Tj
+0 -14 Td
+(- AMD is no longer an issue; firmware supports Intel and AMD now) Tj
+0 -14 Td
+(- Higher firmware tiers mainly mean broader anti-cheat coverage; higher tiers include) Tj
+0 -14 Td
+(  lower-tier support by default) Tj
+0 -14 Td
+(- Firmware delivery can take up to 24 hours depending on the product/setup) Tj
+0 -14 Td
+(- For shipping, hardware usually ships within 0-2 business days, then takes around 2-5) Tj
+0 -14 Td
+(  business days, sometimes up to about 1 week) Tj
+0 -14 Td
+(- CH347 Open Error can be caused by not extracting files first or by running as admin) Tj
+0 -14 Td
+(- If Makcu worked before but stopped after a long break, start over completely and try) Tj
+0 -14 Td
+(  different ports) Tj
+0 -14 Td
+(- For 1PC issues, common fixes are disabling antivirus, checking quarantine, re-) Tj
+0 -14 Td
+(  downloading to a fresh folder, extracting fully, unblocking, running as admin,) Tj
+0 -14 Td
+(  installing VCRedist and DirectX, and restarting) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Reply rules:) Tj
+0 -14 Td
+(- If I ask for a reply, draft the exact message I can send) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 1939 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- If I ask what the main issue is, give the likely cause first, then the safest answer) Tj
+0 -14 Td
+(- Do not overwhelm me unless I ask for depth) Tj
+0 -14 Td
+(- Default to support-safe wording) Tj
+0 -14 Td
+(- If not sure, say so and suggest escalation) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(When possible, help me with:) Tj
+0 -14 Td
+(- exact customer replies) Tj
+0 -14 Td
+(- messages to Sawyer / Mr. Duck) Tj
+0 -14 Td
+(- internal clarification messages) Tj
+0 -14 Td
+(- memory notes from tickets) Tj
+0 -14 Td
+(- support-safe explanations") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(RECENT UPDATES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(KEYS / SUBSCRIPTIONS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(New memory from Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- key timer is automatic) Tj
+0 -14 Td
+(- time starts once the key is used for the first time) Tj
+0 -14 Td
+(- if a customer says the time display looked wrong, one possible cause is a timezone) Tj
+0 -14 Td
+(  mismatch with the server) Tj
+0 -14 Td
+(- if they purchased a 24 hour key, they received 24 hours of use) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, the key timer is automatic and starts once the key is used for the first time. If the) Tj
+0 -14 Td
+(time looked off, it could have been a timezone mismatch with the server.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Subscription extension memory:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- there is not a way to extend a subscription / key) Tj
+0 -14 Td
+(- customer needs to purchase a new key instead) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, there isn't a way to extend the subscription. You would need to purchase a new key.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(FACEIT FIRMWARE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Confirmed by Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Duck's Services does not sell FaceIT firmware) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Reason from Zesira:) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2215 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(- anything public for FaceIT would get blocked instantly) Tj
+0 -14 Td
+(- nobody is going to be public with it) Tj
+0 -14 Td
+(- public = blocked, regardless of price) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, we do not sell FaceIT firmware, sorry.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If customer asks why:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Because anything public for FaceIT would get blocked very quickly, so it isn't something we) Tj
+0 -14 Td
+(offer.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(FIRMWARE BLOCKED VS CHEAT ISSUE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Important DMA troubleshooting note from Sawyer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- if customer says DMA works in one game but not another, do not assume immediately) Tj
+0 -14 Td
+(  whether it is firmware or cheat) Tj
+0 -14 Td
+(- have them run a speed test while in game) Tj
+0 -14 Td
+(- make sure no DMA cheat is open at the same time, because the speed test tool and cheat) Tj
+0 -14 Td
+(  cannot both run together) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Interpretation:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- if speeds are good in game -> firmware is likely not blocked, points more to a cheat) Tj
+0 -14 Td
+(  issue) Tj
+0 -14 Td
+(- if speeds are 0 in game -> firmware is likely blocked) Tj
+0 -14 Td
+(- also make sure speeds work out of game too) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, please try running a speed test while you are in game, and make sure no DMA cheat is) Tj
+0 -14 Td
+(open at the same time since the cheat and speed test tool cannot both run together. If the) Tj
+0 -14 Td
+(speeds are good in game, that points more to a cheat issue. If the speeds are 0 in game,) Tj
+0 -14 Td
+(that points more to the firmware being blocked. Please also check that the speeds work) Tj
+0 -14 Td
+(normally out of game.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(UNCONFIRMED ITEMS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Still confirm with team before promising:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- specific Makcu mouse compatibility) Tj
+0 -14 Td
+(- refund policy exceptions) Tj
+0 -14 Td
+(- exact hidden firmware compatibility conditions) Tj
+0 -14 Td
+(- unusual backend / verification email issues) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 1902 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(NEW TEAM CONFIRMATIONS) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Fortnite firmware:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Trix confirmed Fortnite is supported on their EAC firmware) Tj
+0 -14 Td
+(- do not automatically assume Fortnite always requires VGK tier) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, Fortnite is supported on our EAC firmware based on current team confirmation.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Current discount code:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Trix said `epvp-promotion` is the only discount/promotion currently available) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(GT5 DMA:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- BMP confirmed GT5 DMA works with GTA Online Enhanced) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, yes, GT5 DMA works with GTA Online Enhanced.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Sync Perm Spoofer:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Trix confirmed Sync Perm Spoofer has never supported Vanguard / VGK) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, Sync Perm Spoofer has never supported Vanguard / VGK, so I would not recommend using it) Tj
+0 -14 Td
+(for that.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(BattlEye / no firmware:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- in the specific case of a 35t card with no firmware being present when a BattlEye-) Tj
+0 -14 Td
+(  protected game was opened, Zesira said they would not worry) Tj
+0 -14 Td
+(- keep the phrasing cautious in future replies) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Safe takeaway:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("For that specific case, I wouldn't be overly worried.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(NBA2K26 DMA:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Sawyer said 2K is one of the easiest DMA games) Tj
+0 -14 Td
+(- any firmware tier will work there) Tj
+0 -14 Td
+(- main requirement is around 4k speed test) Tj
+0 -14 Td
+(- Fuser is not strictly required to make it usable) Tj
+ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2575 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("2K is one of the easier DMA games. Any of our firmware tiers will work there, and the main) Tj
+0 -14 Td
+(thing is making sure your speed test is around 4k or better.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(RECENT DMA MEMORY UPDATES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Direct team / support memory to keep:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- BMP confirmed the `$150 EAC` firmware supports `Rust`, `Fortnite`, and `Apex`) Tj
+0 -14 Td
+(- the `CaptainDMA` tool was confirmed as acceptable to use in that firmware flow) Tj
+0 -14 Td
+(- after flashing, one expected sign can be a new device such as a `disk drive`, `Creative) Tj
+0 -14 Td
+(  SB X-Fi`, or another matching firmware/device-style entry depending on the firmware) Tj
+0 -14 Td
+(  family) Tj
+0 -14 Td
+(- some firmware/device types also need a `main PC driver` after the firmware is flashed) Tj
+0 -14 Td
+(  and the PC is power cycled) Tj
+0 -14 Td
+(- if using the `Creative` driver flow, do not disable devices in `Device Manager`; change) Tj
+0 -14 Td
+(  defaults in `Sound Settings / Sound Control Panel` instead) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(75T / flash memory:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- `75T` flashing uses the `JTAG` side) Tj
+0 -14 Td
+(- install the `75T` driver first) Tj
+0 -14 Td
+(- then use the `75T-Fw Update Tool`) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(PUBG DMA guide memory:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- the guide shows a local tool/setup folder) Tj
+0 -14 Td
+(- a console/status window runs alongside the loader/interface window) Tj
+0 -14 Td
+(- the visible final step includes enabling `Fusion Mode`) Tj
+0 -14 Td
+(- safe support takeaway: PUBG DMA setup is a multi-step tool flow, not just opening one) Tj
+0 -14 Td
+(  file) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Testing / default firmware memory:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- default or testing firmware files for `35t`, `75t`, and `100t` are used to confirm the) Tj
+0 -14 Td
+(  card is functioning correctly) Tj
+0 -14 Td
+(- these testing/default firmware files are not meant for in-game use) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(KMBox / Fuser stronger wording:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- `KMBox B Pro` uses a `COM` port and is generally remembered as the more stable aimbot) Tj
+0 -14 Td
+(  option) Tj
+0 -14 Td
+(- `KMBox Net` does not use the same `COM` port style and is generally considered safer for) Tj
+0 -14 Td
+(  `Valorant / Faceit`) Tj
+0 -14 Td
+(- for a `Fuser`, `Output` goes to the main monitor, `HDMI1 / host` goes to the main PC,) Tj
+0 -14 Td
+(  and `HDMI2 / secondary` goes to the 2nd PC) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 1781 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+() Tj
+0 -14 Td
+(Safe reply:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+("Hi, the `$150 EAC` firmware supports Rust, Fortnite, and Apex based on current team) Tj
+0 -14 Td
+(confirmation.") Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(INTERNAL COPYPASTA / DMA NOTES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Useful internal memory from team/copypasta channels:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DMA BASIC SETUP) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- DMA card installs in a PCIe slot on the main PC) Tj
+0 -14 Td
+(- main PC BIOS changes may include:) Tj
+0 -14 Td
+(- disable Virtualization) Tj
+0 -14 Td
+(- disable VT-d) Tj
+0 -14 Td
+(- disable IOMMU) Tj
+0 -14 Td
+(- disable NX-Bit if available) Tj
+0 -14 Td
+(- disable Secure Boot if needed) Tj
+0 -14 Td
+(- set PCI slot to Gen1 if needed) Tj
+0 -14 Td
+(- on the 2nd PC, Device Manager should show:) Tj
+0 -14 Td
+(- FTDI FT601 USB 3.0 Bridge Device) Tj
+0 -14 Td
+(- after setup, reboot the 2nd PC and run a speed test) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Useful setup sequence from BMP:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Turn off the main PC) Tj
+0 -14 Td
+(2. Install the board) Tj
+0 -14 Td
+(3. Connect the Data Port on DMA to the 2nd PC) Tj
+0 -14 Td
+(4. Boot into BIOS) Tj
+0 -14 Td
+(5. Apply the needed BIOS changes) Tj
+0 -14 Td
+(6. Boot into Windows) Tj
+0 -14 Td
+(7. Check for FTDI FT601 USB 3.0 Bridge Device on the 2nd PC) Tj
+0 -14 Td
+(8. Reboot the 2nd PC) Tj
+0 -14 Td
+(9. Run speed test) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If speed test is dumping memory, DMA is ready.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(HUNG DMA) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(If DMA software is stuck on "starting dma":) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- unplug radar PC from DMA card) Tj
+0 -14 Td
+(- power cycle gaming PC) Tj
+0 -14 Td
+(- plug DMA back into radar PC) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 1295 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+(DUMMY-PROOF EXPLANATIONS FROM BMP) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(DMA:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- hardware can read and write memory directly) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(HDMI Fuser:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- combines outputs so ESP/visuals can show on the main monitor) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(KMBox:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- safest way to use aimbot on stronger anti-cheats by emulating mouse input) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Firmware:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- what makes the DMA device appear safe / not obviously a DMA device) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(EXTRA NOTES) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- newer boards can sometimes have issues changing disk serials) Tj
+0 -14 Td
+(- useful internal references mentioned:) Tj
+0 -14 Td
+(- DMA guide) Tj
+0 -14 Td
+(- Fuser guide) Tj
+0 -14 Td
+(- KMBox guide) Tj
+0 -14 Td
+(- XIM / KMBox guide) Tj
+0 -14 Td
+(- .NET Framework 3.5 installer guide) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(IGNORE AS REAL GUIDANCE) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Do not treat these as actual support instructions:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- jokes about RAM slots) Tj
+0 -14 Td
+(- hammer / air chisel jokes) Tj
+0 -14 Td
+(- old provider-list chatter unless the team says it is still relevant) Tj
+ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 39 0 R >>
+endobj
+41 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 42
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000267 00000 n 
+0000002090 00000 n 
+0000002216 00000 n 
+0000004125 00000 n 
+0000004251 00000 n 
+0000005890 00000 n 
+0000006016 00000 n 
+0000007682 00000 n 
+0000007809 00000 n 
+0000009477 00000 n 
+0000009605 00000 n 
+0000011526 00000 n 
+0000011654 00000 n 
+0000013568 00000 n 
+0000013696 00000 n 
+0000015340 00000 n 
+0000015468 00000 n 
+0000017152 00000 n 
+0000017280 00000 n 
+0000019083 00000 n 
+0000019211 00000 n 
+0000021348 00000 n 
+0000021476 00000 n 
+0000023677 00000 n 
+0000023805 00000 n 
+0000026526 00000 n 
+0000026654 00000 n 
+0000028646 00000 n 
+0000028774 00000 n 
+0000031042 00000 n 
+0000031170 00000 n 
+0000033125 00000 n 
+0000033253 00000 n 
+0000035881 00000 n 
+0000036009 00000 n 
+0000037843 00000 n 
+0000037971 00000 n 
+0000039319 00000 n 
+0000039447 00000 n 
+trailer
+<< /Size 42 /Root 41 0 R >>
+startxref
+39497
+%%EOF

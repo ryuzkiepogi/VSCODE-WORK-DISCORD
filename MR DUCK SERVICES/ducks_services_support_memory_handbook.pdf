@@ -1,0 +1,2261 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 21 /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1851 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(DUCK'S SERVICES SUPPORT MEMORY HANDBOOK) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(Prepared from extended training/chat notes.) Tj
+T*
+() Tj
+T*
+(Purpose: preserve the practical knowledge, reply patterns, workflows, source links, internal) Tj
+T*
+(reminders, and people/context learned during this conversation so the information still) Tj
+T*
+(exists even if the chat is gone later.) Tj
+T*
+() Tj
+T*
+(This is a personal working reference. It is not an official company manual.) Tj
+T*
+() Tj
+T*
+(1. Main Goal of This Handbook) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+T*
+(This handbook is meant to preserve:) Tj
+T*
+() Tj
+T*
+(? the business/product overview) Tj
+T*
+(? how support tickets should be approached) Tj
+T*
+(? the difference between simple tickets and escalation tickets) Tj
+T*
+(? how to use the store, DMA page, docs, support tool, and Discord commands) Tj
+T*
+(? internal reminders learned from teammates and copypasta) Tj
+T*
+(? customer reply style) Tj
+T*
+(? safe escalation habits) Tj
+T*
+(? key people and team context) Tj
+T*
+(? source links used during training) Tj
+T*
+() Tj
+T*
+(The most important principle repeated throughout all of this:) Tj
+T*
+() Tj
+T*
+(? do not guess when the issue is unclear) Tj
+T*
+(? use the docs and official tools first) Tj
+T*
+(? ask for missing information) Tj
+T*
+(? escalate when needed) Tj
+T*
+() Tj
+T*
+(2. Team / People Context) Tj
+T*
+(------------------------) Tj
+T*
+() Tj
+T*
+(Important names mentioned during training:) Tj
+T*
+() Tj
+T*
+(? `Sawyer / Mr. Duck`) Tj
+T*
+(? `Zesira`) Tj
+T*
+(? `BMP`) Tj
+T*
+(? `Trix`) Tj
+T*
+() Tj
+T*
+(Main relationship/flow learned:) Tj
+T*
+() Tj
+T*
+(? Sawyer is the main owner/decision-maker) Tj
+T*
+(? Zesira and BMP are major support references for technical/support clarification) Tj
+T*
+(? Trix/BMP/Zesira past replies are useful internal knowledge sources) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1420 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? if something is unclear, especially DMA/firmware/backend issues, it is normal to ask) Tj
+T*
+(    them first) Tj
+T*
+() Tj
+T*
+(Important mindset from Sawyer/team:) Tj
+T*
+() Tj
+T*
+(? first days will involve many escalations) Tj
+T*
+(? asking smart questions is better than giving wrong information) Tj
+T*
+(? repetitive issues become easier with time) Tj
+T*
+(? docs are a main reference, but not every answer is in the docs) Tj
+T*
+() Tj
+T*
+(3. What Duck's Services Sells) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+T*
+(High-level categories:) Tj
+T*
+() Tj
+T*
+(? `1PC products`) Tj
+T*
+(? `DMA products`) Tj
+T*
+(? `HWID Spoofers`) Tj
+T*
+(? `Installation Services`) Tj
+T*
+(? accessories and hardware through the DMA section) Tj
+T*
+() Tj
+T*
+(3.1 1PC Products) Tj
+T*
+() Tj
+T*
+(These are regular loader-based products used on the gaming PC.) Tj
+T*
+() Tj
+T*
+(Normal support pattern:) Tj
+T*
+() Tj
+T*
+(? easier to learn) Tj
+T*
+(? common beginner tickets) Tj
+T*
+(? many repeated issues) Tj
+T*
+() Tj
+T*
+(Most common issue types:) Tj
+T*
+() Tj
+T*
+(? key/access confusion) Tj
+T*
+(? loader not opening) Tj
+T*
+(? antivirus blocking files) Tj
+T*
+(? injection errors) Tj
+T*
+(? missing files) Tj
+T*
+(? browser/download problems) Tj
+T*
+() Tj
+T*
+(3.2 DMA Products) Tj
+T*
+() Tj
+T*
+(DMA is the more advanced side of support.) Tj
+T*
+() Tj
+T*
+(Main elements:) Tj
+T*
+() Tj
+T*
+(? DMA card) Tj
+T*
+(? firmware) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1549 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? second PC or mini PC) Tj
+T*
+(? fuser) Tj
+T*
+(? aiming device like Makcu or KMBox) Tj
+T*
+(? drivers) Tj
+T*
+(? flashing tools) Tj
+T*
+() Tj
+T*
+(General support mindset:) Tj
+T*
+() Tj
+T*
+(? gather exact hardware model) Tj
+T*
+(? gather firmware) Tj
+T*
+(? gather game) Tj
+T*
+(? gather license key/order if relevant) Tj
+T*
+(? do not guess on advanced hardware/firmware questions) Tj
+T*
+() Tj
+T*
+(3.3 HWID Spoofers) Tj
+T*
+() Tj
+T*
+(Separate product category.) Tj
+T*
+() Tj
+T*
+(Common support pattern:) Tj
+T*
+() Tj
+T*
+(? compatibility checker issues) Tj
+T*
+(? download/page not opening) Tj
+T*
+(? crashes/sign-in issues after spoofing) Tj
+T*
+(? verifying whether serials changed) Tj
+T*
+() Tj
+T*
+(3.4 Installation Services) Tj
+T*
+() Tj
+T*
+(Customers may buy installation help separately.) Tj
+T*
+() Tj
+T*
+(Support handling pattern:) Tj
+T*
+() Tj
+T*
+(? confirm they bought the installation service) Tj
+T*
+(? ask for order number) Tj
+T*
+(? ask what product needs setup help) Tj
+T*
+(? ask if they are available now) Tj
+T*
+(? do not promise the live install yourself unless confirmed) Tj
+T*
+(? route to the right person/team member) Tj
+T*
+() Tj
+T*
+(4. Core Support Mindset) Tj
+T*
+(-----------------------) Tj
+T*
+() Tj
+T*
+(The biggest lessons from the chat:) Tj
+T*
+() Tj
+T*
+(? you do not need to know everything immediately) Tj
+T*
+(? you do need to know how to think through tickets) Tj
+T*
+(? the best support is careful, clear, and consistent) Tj
+T*
+(? the goal is not to sound smart; the goal is to avoid misinformation) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1461 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(The safest mental model:) Tj
+T*
+() Tj
+T*
+(1. What category is this?) Tj
+T*
+(2. What exact step failed?) Tj
+T*
+(3. Is the answer clearly in the docs/tool/site/internal notes?) Tj
+T*
+(4. If not, what information is missing?) Tj
+T*
+(5. Can I answer safely, or should I escalate?) Tj
+T*
+() Tj
+T*
+(5. Best Reply Style) Tj
+T*
+(-------------------) Tj
+T*
+() Tj
+T*
+(Preferred tone:) Tj
+T*
+() Tj
+T*
+(? calm) Tj
+T*
+(? clear) Tj
+T*
+(? short) Tj
+T*
+(? polite) Tj
+T*
+(? not overly technical unless necessary) Tj
+T*
+(? not fake-confident) Tj
+T*
+() Tj
+T*
+(Good support habits:) Tj
+T*
+() Tj
+T*
+(? acknowledge the issue) Tj
+T*
+(? ask for the exact missing details) Tj
+T*
+(? use one-step-at-a-time troubleshooting when needed) Tj
+T*
+(? if unsure, say you are checking with the team) Tj
+T*
+() Tj
+T*
+(Good patterns:) Tj
+T*
+() Tj
+T*
+(`Checking first`) Tj
+T*
+() Tj
+T*
+(Hi, thanks for the details. I?m checking the correct steps for your setup now and will) Tj
+T*
+(update you shortly.) Tj
+T*
+() Tj
+T*
+(`Need more info`) Tj
+T*
+() Tj
+T*
+(Please send your exact product, hardware model, firmware, or a screenshot of the error so I) Tj
+T*
+(can check it properly.) Tj
+T*
+() Tj
+T*
+(`Escalation`) Tj
+T*
+() Tj
+T*
+(I want to confirm that properly first so I don?t give you the wrong information.) Tj
+T*
+() Tj
+T*
+(6. The Main 1PC Customer Flow) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+T*
+(This is the most important beginner support flow:) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 1325 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(`buy -> key -> redeem -> download -> extract -> run as admin -> log in -> inject/load ->) Tj
+T*
+(launch -> use in-game`) Tj
+T*
+() Tj
+T*
+(Most normal issues happen because one step in this chain failed.) Tj
+T*
+() Tj
+T*
+(6.1 Buy / Product Confusion) Tj
+T*
+() Tj
+T*
+(Customer problems:) Tj
+T*
+() Tj
+T*
+(? bought wrong product) Tj
+T*
+(? does not know which product applies to their game) Tj
+T*
+(? cannot find where to start) Tj
+T*
+() Tj
+T*
+(6.2 Key / Redeem) Tj
+T*
+() Tj
+T*
+(Customer problems:) Tj
+T*
+() Tj
+T*
+(? key not visible) Tj
+T*
+(? key not working) Tj
+T*
+(? wrong account) Tj
+T*
+(? wrong redemption process) Tj
+T*
+(? purchase not showing) Tj
+T*
+() Tj
+T*
+(6.3 Download / Loader) Tj
+T*
+() Tj
+T*
+(Customer problems:) Tj
+T*
+() Tj
+T*
+(? broken link) Tj
+T*
+(? cannot find loader) Tj
+T*
+(? launcher won?t open) Tj
+T*
+(? missing files) Tj
+T*
+(? browser blocks download) Tj
+T*
+() Tj
+T*
+(6.4 Security / AV / Windows Block) Tj
+T*
+() Tj
+T*
+(Common recurring cause:) Tj
+T*
+() Tj
+T*
+(? Windows Defender or antivirus blocked/removed files) Tj
+T*
+(? Windows blocked the downloaded file) Tj
+T*
+(? file wasn?t extracted) Tj
+T*
+() Tj
+T*
+(6.5 Injection / Launch) Tj
+T*
+() Tj
+T*
+(Common recurring cause:) Tj
+T*
+() Tj
+T*
+(? missed guide step) Tj
+T*
+(? setup order issue) Tj
+T*
+(? product update/status issue) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 1125 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? security block still active) Tj
+T*
+() Tj
+T*
+(7. Main Websites and What They Are For) Tj
+T*
+(--------------------------------------) Tj
+T*
+() Tj
+T*
+(7.1 Home) Tj
+T*
+() Tj
+T*
+(`https://ducks-services.com/`) Tj
+T*
+() Tj
+T*
+(Use for:) Tj
+T*
+() Tj
+T*
+(? company overview) Tj
+T*
+(? general categories) Tj
+T*
+(? trust/sales context) Tj
+T*
+() Tj
+T*
+(7.2 Store) Tj
+T*
+() Tj
+T*
+(`https://ducks-services.com/store/`) Tj
+T*
+() Tj
+T*
+(Use for:) Tj
+T*
+() Tj
+T*
+(? identifying product categories) Tj
+T*
+(? game/product listings) Tj
+T*
+(? checking what the customer likely bought) Tj
+T*
+(? pricing context) Tj
+T*
+() Tj
+T*
+(Important observed categories:) Tj
+T*
+() Tj
+T*
+(? games/products by title) Tj
+T*
+(? `DMA`) Tj
+T*
+(? `HWID Spoofer`) Tj
+T*
+(? `Installation Services`) Tj
+T*
+() Tj
+T*
+(7.3 DMA Page) Tj
+T*
+() Tj
+T*
+(`https://ducks-services.com/dma/`) Tj
+T*
+() Tj
+T*
+(Use for:) Tj
+T*
+() Tj
+T*
+(? DMA bundles) Tj
+T*
+(? DMA cards) Tj
+T*
+(? fusers) Tj
+T*
+(? aiming devices) Tj
+T*
+(? firmware pricing/options) Tj
+T*
+(? accessories) Tj
+T*
+(? mini PCs) Tj
+T*
+() Tj
+T*
+(Important text learned from DMA page:) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 1209 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(? bundles are customizable) Tj
+T*
+(? customers can choose firmware that suits their needs) Tj
+T*
+(? higher-tier cards support more advanced firmware) Tj
+T*
+(? baller bundles include DC500 fuser) Tj
+T*
+() Tj
+T*
+(7.4 Admin) Tj
+T*
+() Tj
+T*
+(`https://ducks-services.com/admin`) Tj
+T*
+() Tj
+T*
+(Use for:) Tj
+T*
+() Tj
+T*
+(? searching users by username/email/license key) Tj
+T*
+(? checking support/backend info) Tj
+T*
+() Tj
+T*
+(7.5 Docs / GitBook) Tj
+T*
+() Tj
+T*
+(`https://docs.ducks-services.com/`) Tj
+T*
+() Tj
+T*
+(Use for:) Tj
+T*
+() Tj
+T*
+(? setup guides) Tj
+T*
+(? key access) Tj
+T*
+(? common issues) Tj
+T*
+(? DMA docs) Tj
+T*
+() Tj
+T*
+(Suggested reading order learned:) Tj
+T*
+() Tj
+T*
+(? `Pre-Setup Guide`) Tj
+T*
+(? `Injection Guide`) Tj
+T*
+(? `Accessing Your Key`) Tj
+T*
+(? `Common Issues`) Tj
+T*
+(? `DMA Hardware Docs`) Tj
+T*
+() Tj
+T*
+(7.6 Support Tool) Tj
+T*
+() Tj
+T*
+(`https://ducks-services.gitbook.io/pre-setup-support-tool`) Tj
+T*
+() Tj
+T*
+(Use for:) Tj
+T*
+() Tj
+T*
+(? basic troubleshooting) Tj
+T*
+(? loading issues) Tj
+T*
+(? connection issues) Tj
+T*
+(? download issues) Tj
+T*
+() Tj
+T*
+(8. The Support Tool Workflow) Tj
+T*
+(----------------------------) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 1467 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(This is one of the biggest lessons.) Tj
+T*
+() Tj
+T*
+(For many basic issues:) Tj
+T*
+() Tj
+T*
+(1. tell customer to use `.tool` or the support tool link) Tj
+T*
+(2. ask them to fix anything green so it shows red) Tj
+T*
+(3. tell them to press `SEND TO SUPPORT`) Tj
+T*
+(4. ask for the `reference code` / `session code`) Tj
+T*
+(5. search the code in Discord with `CTRL + F`) Tj
+T*
+(6. inspect the embed) Tj
+T*
+() Tj
+T*
+(Big things the team said to check:) Tj
+T*
+() Tj
+T*
+(? `Real-Time Protection`) Tj
+T*
+(? `Vanguard Anti-Cheat`) Tj
+T*
+(? `FaceIT Anti-Cheat`) Tj
+T*
+() Tj
+T*
+(Also useful to review:) Tj
+T*
+() Tj
+T*
+(? `Firmware Virtualization`) Tj
+T*
+(? `Secure Boot`) Tj
+T*
+(? `UAC Status`) Tj
+T*
+() Tj
+T*
+(Expected safe-state pattern from example embeds:) Tj
+T*
+() Tj
+T*
+(? Real-Time Protection = disabled) Tj
+T*
+(? Vanguard = not detected) Tj
+T*
+(? FaceIT = not detected) Tj
+T*
+(? Virtualization = disabled) Tj
+T*
+(? Secure Boot = disabled) Tj
+T*
+(? UAC = disabled) Tj
+T*
+() Tj
+T*
+(Important internal wording:) Tj
+T*
+() Tj
+T*
+(`If anything is green, fix it so it shows red`) Tj
+T*
+() Tj
+T*
+(9. Most Common 1PC Issue Patterns) Tj
+T*
+(---------------------------------) Tj
+T*
+() Tj
+T*
+(9.1 Loader Won?t Open) Tj
+T*
+() Tj
+T*
+(Most likely causes:) Tj
+T*
+() Tj
+T*
+(? antivirus/Defender blocked or removed loader files) Tj
+T*
+(? file blocked by Windows) Tj
+T*
+(? files not extracted properly) Tj
+T*
+() Tj
+T*
+(Best standard response pattern:) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 1406 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(? disable Defender/AV) Tj
+T*
+(? check quarantined items) Tj
+T*
+(? re-download to fresh folder) Tj
+T*
+(? extract fully) Tj
+T*
+(? right-click Properties -> Unblock if present) Tj
+T*
+(? run as administrator) Tj
+T*
+() Tj
+T*
+(9.2 Missing Files / Missing Components) Tj
+T*
+() Tj
+T*
+(Known internal fix:) Tj
+T*
+() Tj
+T*
+(? install `Microsoft DirectX`) Tj
+T*
+(? install `all VCRedist`) Tj
+T*
+(? restart system) Tj
+T*
+() Tj
+T*
+(This came from internal copypasta and teammate guidance.) Tj
+T*
+() Tj
+T*
+(9.3 Missing DLLs) Tj
+T*
+() Tj
+T*
+(Internal note learned:) Tj
+T*
+() Tj
+T*
+(? sometimes `leechcore.dll` and `vmm.dll` need to be placed in the same folder as the) Tj
+T*
+(    loader) Tj
+T*
+(? versions matter) Tj
+T*
+(? some cheats use different leechcore versions) Tj
+T*
+(? `leechcore` and `vmm` should match the cheat library) Tj
+T*
+() Tj
+T*
+(9.4 Key / Access Problems) Tj
+T*
+() Tj
+T*
+(Best support habits:) Tj
+T*
+() Tj
+T*
+(? confirm correct account) Tj
+T*
+(? confirm order) Tj
+T*
+(? check key in admin search) Tj
+T*
+(? ask for screenshot of `My Keys` page if needed) Tj
+T*
+() Tj
+T*
+(9.5 Broken Download Link) Tj
+T*
+() Tj
+T*
+(Best support habit:) Tj
+T*
+() Tj
+T*
+(? do not guess a replacement link) Tj
+T*
+(? confirm the source first) Tj
+T*
+(? tell customer you are checking before they try anything else) Tj
+T*
+() Tj
+T*
+(10. DMA Overview) Tj
+T*
+(----------------) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 1238 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(DMA is where support becomes more technical and more careful.) Tj
+T*
+() Tj
+T*
+(10.1 Main DMA Terms) Tj
+T*
+() Tj
+T*
+(`35t / 75t / 100t`) Tj
+T*
+() Tj
+T*
+(DMA card tiers/models.) Tj
+T*
+() Tj
+T*
+(`Firmware`) Tj
+T*
+() Tj
+T*
+(Critical part of the DMA setup. Determines anti-cheat compatibility/support.) Tj
+T*
+() Tj
+T*
+(`Second PC / Mini PC`) Tj
+T*
+() Tj
+T*
+(Separate system used in DMA setup.) Tj
+T*
+() Tj
+T*
+(`Fuser`) Tj
+T*
+() Tj
+T*
+(Display-related hardware. Important for certain resolution/refresh setups.) Tj
+T*
+() Tj
+T*
+(`Makcu / KMBox`) Tj
+T*
+() Tj
+T*
+(Input/aiming-related devices in DMA ecosystem.) Tj
+T*
+() Tj
+T*
+(10.2 DMA Card / Driver Commands) Tj
+T*
+() Tj
+T*
+(Known Discord commands:) Tj
+T*
+() Tj
+T*
+(? `.dmainstall`) Tj
+T*
+(? `.jtag`) Tj
+T*
+(? `.ftdi`) Tj
+T*
+(? `.speedtest`) Tj
+T*
+(? `.dmatroubleshooting`) Tj
+T*
+(? `.dnaid`) Tj
+T*
+(? `.35tflash`) Tj
+T*
+(? `.75tflash`) Tj
+T*
+(? `.100tflash`) Tj
+T*
+(? `.makcuflashing`) Tj
+T*
+(? `.makcucables`) Tj
+T*
+(? `.makcudriver`) Tj
+T*
+(? `.fuser`) Tj
+T*
+(? `.fusersetup`) Tj
+T*
+(? `.dmaquiz`) Tj
+T*
+() Tj
+T*
+(These match the docs and are useful fast references.) Tj
+T*
+() Tj
+T*
+(11. DMA Ticket Handling Pattern) Tj
+T*
+(-------------------------------) Tj
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 1673 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(For DMA tickets, usually ask for:) Tj
+T*
+() Tj
+T*
+(? hardware model) Tj
+T*
+(? game) Tj
+T*
+(? firmware) Tj
+T*
+(? license key) Tj
+T*
+(? motherboard if relevant) Tj
+T*
+(? DNA ID if firmware-related) Tj
+T*
+(? screenshot/error) Tj
+T*
+() Tj
+T*
+(Internal firmware prep info request learned:) Tj
+T*
+() Tj
+T*
+(? DMA DNA ID) Tj
+T*
+(? motherboard model) Tj
+T*
+(? firmware order number) Tj
+T*
+() Tj
+T*
+(11.1 Do Not Guess On) Tj
+T*
+() Tj
+T*
+(? exact firmware compatibility not confirmed in docs/team) Tj
+T*
+(? advanced BIOS guidance unless clearly documented) Tj
+T*
+(? unique/private firmware availability/pricing) Tj
+T*
+(? whether something is safe/undetected in strong absolute terms) Tj
+T*
+(? whether a main account is 100% safe) Tj
+T*
+() Tj
+T*
+(12. DMA Page / Bundle / Firmware Knowledge) Tj
+T*
+(------------------------------------------) Tj
+T*
+() Tj
+T*
+(12.1 Firmware Options Seen) Tj
+T*
+() Tj
+T*
+(From DMA page information shared:) Tj
+T*
+() Tj
+T*
+(? `1:1 Emulated - BE / COD / BF / FiveM` ? from `$49.99`) Tj
+T*
+(? `1:1 Emulated - ACE / EAC / BE / COD` ? from `$149.99`) Tj
+T*
+(? `1:1 Emulated - VGK / ACE / EAC / BE` ? from `$224.99`) Tj
+T*
+() Tj
+T*
+(Important known info from product text:) Tj
+T*
+() Tj
+T*
+(? firmware helps prevent device being identified as a DMA device) Tj
+T*
+(? emulated firmware is backed by a driver) Tj
+T*
+(? no yellow exclamation mark in Device Manager) Tj
+T*
+(? `BE / COD / BF / FiveM` firmware included a `3 month warranty`) Tj
+T*
+(? delivery for firmware may take up to `24 hours`) Tj
+T*
+() Tj
+T*
+(Important distinction:) Tj
+T*
+() Tj
+T*
+(? warranty is not always the same thing as usage duration) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 1561 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(12.2 Firmware Recommendation Logic) Tj
+T*
+() Tj
+T*
+(If customer already has equipment and only needs firmware:) Tj
+T*
+() Tj
+T*
+(? ask what DMA card they have) Tj
+T*
+(? ask what games they play) Tj
+T*
+(? if `.dmaquiz` is used, rely on the recommendation wording) Tj
+T*
+() Tj
+T*
+(Example from chat:) Tj
+T*
+() Tj
+T*
+(? customer wanted firmware for `R6`, `COD`, and `FN`) Tj
+T*
+(? `.dmaquiz` result recommended `ACE / EAC / BE / COD / BF / FiveM Firmware`) Tj
+T*
+(? price associated in recommendation context was `$149.99`) Tj
+T*
+() Tj
+T*
+(12.3 Cheapest Firmware Question) Tj
+T*
+() Tj
+T*
+(Known safe answer:) Tj
+T*
+() Tj
+T*
+(? cheapest listed firmware currently is `1:1 Emulated - BE / COD / BF / FiveM` at `$49.99`) Tj
+T*
+() Tj
+T*
+(12.4 Bundle Customization) Tj
+T*
+() Tj
+T*
+(Text learned from DMA page:) Tj
+T*
+() Tj
+T*
+(? bundles are customizable) Tj
+T*
+(? firmware choice can be selected) Tj
+T*
+() Tj
+T*
+(So safe answer:) Tj
+T*
+() Tj
+T*
+(? yes, bundles are customizable for firmware choice) Tj
+T*
+() Tj
+T*
+(13. Mini PC / Hardware Recommendation Notes) Tj
+T*
+(-------------------------------------------) Tj
+T*
+() Tj
+T*
+(Observed mini PC options:) Tj
+T*
+() Tj
+T*
+(? `Budget Mini PC`) Tj
+T*
+(? `Premium Mini PC`) Tj
+T*
+() Tj
+T*
+(Important distinction:) Tj
+T*
+() Tj
+T*
+(? `T100 / 100t` is the DMA card tier, not the PC) Tj
+T*
+() Tj
+T*
+(When asked what mini PC or bundle to get:) Tj
+T*
+() Tj
+T*
+(? best default answer is to use `.dmaquiz`) Tj
+T*
+(? if customer gives games/budget/refresh rate, you can help explain result) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 1727 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(Example learned:) Tj
+T*
+() Tj
+T*
+(? Warzone / weekend use / low spend = budget-friendly direction + mini PC can make sense) Tj
+T*
+(? but safest sales-support path is still `.dmaquiz`) Tj
+T*
+() Tj
+T*
+(14. Fuser / Display Knowledge) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+T*
+(Important learned case:) Tj
+T*
+() Tj
+T*
+(? `MSI MAG 342CQR E2` monitor) Tj
+T*
+(? `3440x1440`) Tj
+T*
+(? DisplayPort needed for full resolution/high refresh) Tj
+T*
+(? `DC500` was the better fit vs normal HDMI fuser for that kind of setup) Tj
+T*
+() Tj
+T*
+(General lesson:) Tj
+T*
+() Tj
+T*
+(? if customer is asking whether a fuser supports their monitor, check exact monitor model) Tj
+T*
+(    and specs first) Tj
+T*
+() Tj
+T*
+(15. Shipping / Delivery Knowledge) Tj
+T*
+(---------------------------------) Tj
+T*
+() Tj
+T*
+(From DMA shipping information:) Tj
+T*
+() Tj
+T*
+(? DMA hardware ships from the United States) Tj
+T*
+(? orders usually ship within `0?1 business days`) Tj
+T*
+(? U.S. delivery: `2?4 business days`) Tj
+T*
+(? international: around `5?7 business days`) Tj
+T*
+() Tj
+T*
+(For older search results there were also Europe estimates, but safest internal memory from) Tj
+T*
+(your later info:) Tj
+T*
+() Tj
+T*
+(? use `0?1 business days shipping`) Tj
+T*
+(? `5?7 business days international`) Tj
+T*
+() Tj
+T*
+(16. Installation Service Workflow) Tj
+T*
+(---------------------------------) Tj
+T*
+() Tj
+T*
+(If customer bought installation service:) Tj
+T*
+() Tj
+T*
+(1. acknowledge purchase) Tj
+T*
+(2. ask for order number) Tj
+T*
+(3. ask what product needs help) Tj
+T*
+(4. ask whether they are available now) Tj
+T*
+(5. check who is available) Tj
+T*
+(6. do not promise live install yourself unless confirmed) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 1540 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(If guiding step by step:) Tj
+T*
+() Tj
+T*
+(? do one step at a time) Tj
+T*
+(? ask customer to confirm after each step) Tj
+T*
+(? ask for screenshots when unclear) Tj
+T*
+(? stop and escalate if you become unsure) Tj
+T*
+() Tj
+T*
+(17. Internal Copypasta / Memory Notes) Tj
+T*
+(-------------------------------------) Tj
+T*
+() Tj
+T*
+(17.1 Ticket Closure / Follow-Up) Tj
+T*
+() Tj
+T*
+(Examples learned:) Tj
+T*
+() Tj
+T*
+(? checking in if anything else is needed) Tj
+T*
+(? saying ticket will be closed soon) Tj
+T*
+(? inviting customer to let support know before closure if they still need help) Tj
+T*
+() Tj
+T*
+(17.2 Scam / Payment Reminder) Tj
+T*
+() Tj
+T*
+(Important internal safety reminder:) Tj
+T*
+() Tj
+T*
+(? staff will never DM asking for payment details) Tj
+T*
+(? payments and inquiries should go through official website or official tickets) Tj
+T*
+() Tj
+T*
+(17.3 Review Templates) Tj
+T*
+() Tj
+T*
+(Internal review asks referenced:) Tj
+T*
+() Tj
+T*
+(? Trustpilot) Tj
+T*
+(? Discord reviews) Tj
+T*
+(? Elitepvpers) Tj
+T*
+() Tj
+T*
+(Important rule from Sawyer:) Tj
+T*
+() Tj
+T*
+(? only ask after issue is fully resolved) Tj
+T*
+(? do not be pushy) Tj
+T*
+() Tj
+T*
+(17.4 XIM / Makcu Memory) Tj
+T*
+() Tj
+T*
+(Important flow:) Tj
+T*
+() Tj
+T*
+(? XIM setup should work by itself first) Tj
+T*
+(? mouse should move crosshair correctly) Tj
+T*
+(? shooting should work) Tj
+T*
+(? if customer needs XIM config help, XIM forums/community are appropriate) Tj
+T*
+(? once XIM is working, then proceed with Makcu connection/setup) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 1623 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(17.5 Windows Update / Direct DMA Warning) Tj
+T*
+() Tj
+T*
+(Important internal notes from BMP:) Tj
+T*
+() Tj
+T*
+(? do not update Windows on gaming PC when everything works) Tj
+T*
+(? certain Windows builds were not supported) Tj
+T*
+(? uninstall unsupported KBs if needed) Tj
+T*
+() Tj
+T*
+(Specific versions/KBs learned:) Tj
+T*
+() Tj
+T*
+(? `26100.3323` not supported \(`KB5052093`\)) Tj
+T*
+(? `26100.3476` not supported \(`KB5053598`\)) Tj
+T*
+(? supported mention: `26100.3194` \(`KB5051987`\)) Tj
+T*
+() Tj
+T*
+(17.6 Hyper-V Instructions) Tj
+T*
+() Tj
+T*
+(There is internal copypasta for enabling Hyper-V through Control Panel if needed.) Tj
+T*
+() Tj
+T*
+(17.7 WinRAR) Tj
+T*
+() Tj
+T*
+(Known simple fix:) Tj
+T*
+() Tj
+T*
+(? if extraction issues occur, direct customer to install WinRAR) Tj
+T*
+() Tj
+T*
+(17.8 Serial Checker / Spoofer Note) Tj
+T*
+() Tj
+T*
+(Known internal guidance:) Tj
+T*
+() Tj
+T*
+(? run tool as admin before using spoofer) Tj
+T*
+(? take screenshot of serial numbers first) Tj
+T*
+(? compare after spoofing to verify changes) Tj
+T*
+() Tj
+T*
+(18. How To Read Any Ticket) Tj
+T*
+(--------------------------) Tj
+T*
+() Tj
+T*
+(Use this checklist every time:) Tj
+T*
+() Tj
+T*
+(1. Is this `1PC`, `DMA`, `spoofer`, `installation service`, or `sales/pre-sale`?) Tj
+T*
+(2. What exact step failed?) Tj
+T*
+(3. What information is missing?) Tj
+T*
+(4. Is the answer clearly in the docs/support tool/internal notes?) Tj
+T*
+(5. If yes, guide them.) Tj
+T*
+(6. If no, escalate.) Tj
+T*
+() Tj
+T*
+(This is the core support habit.) Tj
+T*
+() Tj
+T*
+(19. Good Questions To Ask) Tj
+T*
+(-------------------------) Tj
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 1444 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(19.1 For 1PC) Tj
+T*
+() Tj
+T*
+(? what exact product did you buy?) Tj
+T*
+(? what exactly happens?) Tj
+T*
+(? screenshot of error?) Tj
+T*
+(? did you redeem the key?) Tj
+T*
+(? are you on the correct account?) Tj
+T*
+(? did you extract the files?) Tj
+T*
+(? did antivirus block anything?) Tj
+T*
+(? support tool reference code?) Tj
+T*
+() Tj
+T*
+(19.2 For DMA) Tj
+T*
+() Tj
+T*
+(? hardware model?) Tj
+T*
+(? 35t/75t/100t?) Tj
+T*
+(? motherboard?) Tj
+T*
+(? firmware?) Tj
+T*
+(? game?) Tj
+T*
+(? DNA ID?) Tj
+T*
+(? order number?) Tj
+T*
+(? license key?) Tj
+T*
+(? exact symptom?) Tj
+T*
+() Tj
+T*
+(20. Ticket Types You Saw Often) Tj
+T*
+(------------------------------) Tj
+T*
+() Tj
+T*
+(Repeated patterns from the chat:) Tj
+T*
+() Tj
+T*
+(? broken loader links) Tj
+T*
+(? loader won?t open) Tj
+T*
+(? missing driver / missing files) Tj
+T*
+(? missing components) Tj
+T*
+(? support tool confusion) Tj
+T*
+(? firmware pricing and duration questions) Tj
+T*
+(? DMA bundle / mini PC / payment questions) Tj
+T*
+(? HDMI cables missing from bundle) Tj
+T*
+(? setup confusion after receiving hardware) Tj
+T*
+(? feature mismatch questions) Tj
+T*
+(? status questions) Tj
+T*
+() Tj
+T*
+(21. Cases Where You Should Be Extra Careful) Tj
+T*
+(-------------------------------------------) Tj
+T*
+() Tj
+T*
+(Do not freestyle answers for:) Tj
+T*
+() Tj
+T*
+(? ?will this keep me safe/undetected??) Tj
+T*
+(? ?can I use my main account safely after cheating??) Tj
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 36 0 R >>
+endobj
+36 0 obj
+<< /Length 1463 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(? ?is this 100% safe??) Tj
+T*
+(? ?is FaceIt supported??) Tj
+T*
+(? exact controller/KMBox/Makcu routing if not documented) Tj
+T*
+(? unique/private firmware pricing if not confirmed) Tj
+T*
+(? direct developer-side bug claims) Tj
+T*
+() Tj
+T*
+(Best pattern:) Tj
+T*
+() Tj
+T*
+(? acknowledge) Tj
+T*
+(? say you want to confirm first) Tj
+T*
+(? ask the team) Tj
+T*
+() Tj
+T*
+(22. Team Communication Style) Tj
+T*
+(----------------------------) Tj
+T*
+() Tj
+T*
+(Good internal message pattern:) Tj
+T*
+() Tj
+T*
+(? summarize customer issue) Tj
+T*
+(? include product/hardware details) Tj
+T*
+(? mention what you already checked) Tj
+T*
+(? mention your best guess without sounding absolute) Tj
+T*
+(? ask for confirmation) Tj
+T*
+() Tj
+T*
+(Example pattern:) Tj
+T*
+() Tj
+T*
+(Customer says X. I checked Y. It looks more like Z than A/B. Could someone confirm the best) Tj
+T*
+(next step before I reply further?) Tj
+T*
+() Tj
+T*
+(This looks responsible and saves the team time.) Tj
+T*
+() Tj
+T*
+(23. Communication With Sawyer) Tj
+T*
+(-----------------------------) Tj
+T*
+() Tj
+T*
+(Good things to update him on:) Tj
+T*
+() Tj
+T*
+(? starting/clocking in) Tj
+T*
+(? ticket progress) Tj
+T*
+(? first closed tickets) Tj
+T*
+(? possible deals) Tj
+T*
+(? learning progress) Tj
+T*
+(? trial-period clarification questions) Tj
+T*
+() Tj
+T*
+(Good style:) Tj
+T*
+() Tj
+T*
+(? respectful) Tj
+T*
+(? appreciative) Tj
+T*
+(? not pushy) Tj
+T*
+(? focused on learning and reliability) Tj
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 38 0 R >>
+endobj
+38 0 obj
+<< /Length 1897 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(24. Trial / Work Mindset) Tj
+T*
+(------------------------) Tj
+T*
+() Tj
+T*
+(Strong lessons from the chat:) Tj
+T*
+() Tj
+T*
+(? you do not need to act like an expert) Tj
+T*
+(? you do need to be active, accurate, and coachable) Tj
+T*
+(? handling simple tickets well matters a lot) Tj
+T*
+(? accurate escalation matters a lot) Tj
+T*
+(? being dependable makes the team trust you) Tj
+T*
+() Tj
+T*
+(The right goal:) Tj
+T*
+() Tj
+T*
+(? reduce uncertainty over time) Tj
+T*
+(? answer more tickets confidently without misinformation) Tj
+T*
+(? make support lighter for Sawyer/team over time) Tj
+T*
+() Tj
+T*
+(25. Privacy / Safety Notes Learned) Tj
+T*
+(----------------------------------) Tj
+T*
+() Tj
+T*
+(From your own reflections:) Tj
+T*
+() Tj
+T*
+(? Discord roles do not normally reveal everyone?s IP addresses) Tj
+T*
+(? website/backend/support tools can show public IPs) Tj
+T*
+(? public IP is not the same thing as exact home address) Tj
+T*
+(? if privacy matters, using a VPN before logging into work systems can reduce exposure of) Tj
+T*
+(    your public IP) Tj
+T*
+() Tj
+T*
+(This was not a company policy note, but a personal understanding note from the chat.) Tj
+T*
+() Tj
+T*
+(26. Ready-To-Use Short Templates) Tj
+T*
+(--------------------------------) Tj
+T*
+() Tj
+T*
+(26.1 Need More Info) Tj
+T*
+() Tj
+T*
+(Hi, thanks for reaching out. Could you please send a screenshot of the error and confirm the) Tj
+T*
+(exact product/setup you?re using so I can check it properly?) Tj
+T*
+() Tj
+T*
+(26.2 Broken Link) Tj
+T*
+() Tj
+T*
+(Hi, thanks for reaching out. I?m checking this for you now. Since you mentioned the link) Tj
+T*
+(appears to be broken, I want to confirm the correct source first before having you try) Tj
+T*
+(anything else.) Tj
+T*
+() Tj
+T*
+(26.3 Loader Won?t Open) Tj
+T*
+() Tj
+T*
+(Hi, thanks for reaching out. The most common cause of this is that Defender/antivirus) Tj
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 40 0 R >>
+endobj
+40 0 obj
+<< /Length 1611 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(blocked or removed part of the loader, or Windows is blocking the file after download.) Tj
+T*
+(Please re-download to a fresh folder, extract fully, check Properties > Unblock if it) Tj
+T*
+(appears, disable Defender/AV, and run as administrator.) Tj
+T*
+() Tj
+T*
+(26.4 DMA Clarification) Tj
+T*
+() Tj
+T*
+(Hi, thanks for reaching out. I?d like to confirm that properly first so I don?t give you the) Tj
+T*
+(wrong information. Please send your hardware model, firmware, game, and license key so I can) Tj
+T*
+(check it accurately.) Tj
+T*
+() Tj
+T*
+(26.5 Installation Service) Tj
+T*
+() Tj
+T*
+(Hi, thanks for reaching out. I can see that you purchased the Installation Service. Please) Tj
+T*
+(send your order number, the product you need help with, and whether you?re available now so) Tj
+T*
+(we can check the next step for you.) Tj
+T*
+() Tj
+T*
+(26.6 Close Ticket) Tj
+T*
+() Tj
+T*
+(Hi, do you have any other questions or concerns? If not, I?ll go ahead and close the ticket) Tj
+T*
+(now.) Tj
+T*
+() Tj
+T*
+(27. Source / Reference List) Tj
+T*
+(---------------------------) Tj
+T*
+() Tj
+T*
+(Main website:) Tj
+T*
+() Tj
+T*
+(? `https://ducks-services.com/`) Tj
+T*
+() Tj
+T*
+(Store:) Tj
+T*
+() Tj
+T*
+(? `https://ducks-services.com/store/`) Tj
+T*
+() Tj
+T*
+(DMA page:) Tj
+T*
+() Tj
+T*
+(? `https://ducks-services.com/dma/`) Tj
+T*
+() Tj
+T*
+(Admin:) Tj
+T*
+() Tj
+T*
+(? `https://ducks-services.com/admin`) Tj
+T*
+() Tj
+T*
+(Main docs:) Tj
+T*
+() Tj
+T*
+(? `https://docs.ducks-services.com/`) Tj
+T*
+() Tj
+T*
+(Support tool:) Tj
+T*
+() Tj
+T*
+(? `https://ducks-services.gitbook.io/pre-setup-support-tool`) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 42 0 R >>
+endobj
+42 0 obj
+<< /Length 1994 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+(Trustpilot:) Tj
+T*
+() Tj
+T*
+(? `https://www.trustpilot.com/evaluate/www.ducks-services.com`) Tj
+T*
+() Tj
+T*
+(Discord invite mentioned:) Tj
+T*
+() Tj
+T*
+(? `discord.gg/ducknrun`) Tj
+T*
+() Tj
+T*
+(Amazon/mini PC references seen during training:) Tj
+T*
+() Tj
+T*
+(? `https://www.amazon.com/dp/B0C2P486GQ?social_share=cm_sw_r_cp_ud_dp_PZH49DHHDG2S959N7SBJ) Tj
+T*
+(    &th=1&linkCode=sl1&tag=ducksservices-) Tj
+T*
+(    20&linkId=42165f768bc5377afe74b97f3e894762&language=en_US&ref_=as_li_ss_tl`) Tj
+T*
+(? `https://www.amazon.com/Beelink-Lake-N100-Computer-Support-Family-) Tj
+T*
+(    NAS/dp/B0BVFKN7ZL?crid=RB0KJPX6FSQ5&dib=eyJ2IjoiMSJ9.ryiyxSLE-) Tj
+T*
+(    GfEApkKPFbVBkgu7e_ZVOvHDhEYShoHzDAK1cYi-UbRe5JmVs7pqXoNWY2yIQYLNuBfFQcCy-) Tj
+T*
+(    zwXTSai4BSXp84QhLX_eOj4nZxAkUHCWJ0ima8mSeO5z6Chcxl4Bzh46749Bu9BIyLtydvxzfo8ZpVR-HAvV6y) Tj
+T*
+(    Wm1LYUfUcNXukCeX86kTQZn8UOdqKmxHoMZEQnPdaagJAS5MVHfZLYWmvv10Drjug8fyfOFA81UzHvudjSmr3c) Tj
+T*
+(    113QsSEmUa2UkoJLOshAYkAyDCk1BCGFvTp-X0o5JnvFoyxBs9hYxCyIX_rwjA3G2ngHw-ZRnK-c-) Tj
+T*
+(    LDZxrMs9EfzY5pPvMDBCQHOZWT4ZWrv4.v82C4bw_CG2y383U2m5WP-gAR3Xyf7SpLRyUbXYa5tA&dib_tag=s) Tj
+T*
+(    e&keywords=Beelink%2BMini%2BPC&qid=1735457174&s=electronics&sprefix=beelink%2Bmini%2Bp) Tj
+T*
+(    c,electronics,93&sr=1-1&th=1&linkCode=sl1&tag=ducksservices-) Tj
+T*
+(    20&linkId=5bda8727a8f7adeff88f8260b810f399&language=en_US&ref_=as_li_ss_tl`) Tj
+T*
+() Tj
+T*
+(Useful Discord command references:) Tj
+T*
+() Tj
+T*
+(? `.tool`) Tj
+T*
+(? `.dma`) Tj
+T*
+(? `.dmaquiz`) Tj
+T*
+(? `.dmainstall`) Tj
+T*
+(? `.jtag`) Tj
+T*
+(? `.ftdi`) Tj
+T*
+(? `.speedtest`) Tj
+T*
+(? `.dmatroubleshooting`) Tj
+T*
+(? `.dnaid`) Tj
+T*
+(? `.35tflash`) Tj
+T*
+(? `.75tflash`) Tj
+T*
+(? `.100tflash`) Tj
+T*
+(? `.makcuflashing`) Tj
+T*
+(? `.makcucables`) Tj
+T*
+(? `.makcudriver`) Tj
+T*
+(? `.fuser`) Tj
+T*
+(? `.fusersetup`) Tj
+T*
+() Tj
+T*
+(28. Final Summary) Tj
+T*
+(-----------------) Tj
+T*
+() Tj
+T*
+(If all of this had to be reduced to the most important memory points:) Tj
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 45 0 R >> >> /Contents 44 0 R >>
+endobj
+44 0 obj
+<< /Length 734 >>
+stream
+BT
+/F1 10 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(? learn the difference between `1PC` and `DMA`) Tj
+T*
+(? use the website/store/DMA/docs for structure) Tj
+T*
+(? use `.tool` for many basic problems) Tj
+T*
+(? check Defender / Vanguard / FaceIT / virtualization / secure boot first) Tj
+T*
+(? ask for exact hardware/firmware/game details on DMA tickets) Tj
+T*
+(? use `.dmaquiz` for recommendations whenever possible) Tj
+T*
+(? internal copypasta and teammate answers matter just as much as public docs) Tj
+T*
+(? do not guess risky technical answers) Tj
+T*
+(? asking Sawyer/Zesira/BMP/Trix when unsure is normal) Tj
+T*
+(? the goal is accurate, reliable support that gets stronger over time) Tj
+T*
+() Tj
+T*
+(This is the main memory of the chat.) Tj
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 46
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000253 00000 n 
+0000000380 00000 n 
+0000002283 00000 n 
+0000002410 00000 n 
+0000003882 00000 n 
+0000004009 00000 n 
+0000005610 00000 n 
+0000005738 00000 n 
+0000007252 00000 n 
+0000007381 00000 n 
+0000008759 00000 n 
+0000008888 00000 n 
+0000010066 00000 n 
+0000010195 00000 n 
+0000011457 00000 n 
+0000011586 00000 n 
+0000013106 00000 n 
+0000013235 00000 n 
+0000014694 00000 n 
+0000014823 00000 n 
+0000016114 00000 n 
+0000016243 00000 n 
+0000017969 00000 n 
+0000018098 00000 n 
+0000019712 00000 n 
+0000019841 00000 n 
+0000021621 00000 n 
+0000021750 00000 n 
+0000023343 00000 n 
+0000023472 00000 n 
+0000025148 00000 n 
+0000025277 00000 n 
+0000026774 00000 n 
+0000026903 00000 n 
+0000028419 00000 n 
+0000028548 00000 n 
+0000030498 00000 n 
+0000030627 00000 n 
+0000032291 00000 n 
+0000032420 00000 n 
+0000034467 00000 n 
+0000034596 00000 n 
+0000035382 00000 n 
+trailer
+<< /Size 46 /Root 1 0 R >>
+startxref
+35453
+%%EOF

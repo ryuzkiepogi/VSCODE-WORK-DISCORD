@@ -667,6 +667,171 @@ Still confirm with team before promising:
 - exact hidden firmware compatibility conditions
 - unusual backend / verification email issues
 
+### New Team Confirmations
+
+Fortnite firmware:
+
+- Trix confirmed Fortnite is supported on their EAC firmware
+- do not automatically assume Fortnite always requires VGK tier
+
+Safe reply:
+
+"Hi, Fortnite is supported on our EAC firmware based on current team confirmation."
+
+Current discount code:
+
+- Trix said `epvp-promotion` is the only discount/promotion currently available
+
+GT5 DMA:
+
+- BMP confirmed GT5 DMA works with GTA Online Enhanced
+
+Safe reply:
+
+"Hi, yes, GT5 DMA works with GTA Online Enhanced."
+
+Sync Perm Spoofer:
+
+- Trix confirmed Sync Perm Spoofer has never supported Vanguard / VGK
+
+Safe reply:
+
+"Hi, Sync Perm Spoofer has never supported Vanguard / VGK, so I would not recommend using it for that."
+
+BattlEye / no firmware:
+
+- in the specific case of a 35t card with no firmware being present when a BattlEye-protected game was opened, Zesira said they would not worry
+- keep the phrasing cautious in future replies
+
+Safe takeaway:
+
+"For that specific case, I wouldn’t be overly worried."
+
+NBA2K26 DMA:
+
+- Sawyer said 2K is one of the easiest DMA games
+- any firmware tier will work there
+- main requirement is around 4k speed test
+- Fuser is not strictly required to make it usable
+
+Safe reply:
+
+"2K is one of the easier DMA games. Any of our firmware tiers will work there, and the main thing is making sure your speed test is around 4k or better."
+
+### Recent DMA Memory Updates
+
+Direct team / support memory to keep:
+
+- BMP confirmed the `$150 EAC` firmware supports `Rust`, `Fortnite`, and `Apex`
+- the `CaptainDMA` tool was confirmed as acceptable to use in that firmware flow
+- after flashing, one expected sign can be a new device such as a `disk drive`, `Creative SB X-Fi`, or another matching firmware/device-style entry depending on the firmware family
+- some firmware/device types also need a `main PC driver` after the firmware is flashed and the PC is power cycled
+- if using the `Creative` driver flow, do not disable devices in `Device Manager`; change defaults in `Sound Settings / Sound Control Panel` instead
+
+75T / flash memory:
+
+- `75T` flashing uses the `JTAG` side
+- install the `75T` driver first
+- then use the `75T-Fw Update Tool`
+
+PUBG DMA guide memory:
+
+- the guide shows a local tool/setup folder
+- a console/status window runs alongside the loader/interface window
+- the visible final step includes enabling `Fusion Mode`
+- safe support takeaway: PUBG DMA setup is a multi-step tool flow, not just opening one file
+
+Testing / default firmware memory:
+
+- default or testing firmware files for `35t`, `75t`, and `100t` are used to confirm the card is functioning correctly
+- these testing/default firmware files are not meant for in-game use
+
+KMBox / Fuser stronger wording:
+
+- `KMBox B Pro` uses a `COM` port and is generally remembered as the more stable aimbot option
+- `KMBox Net` does not use the same `COM` port style and is generally considered safer for `Valorant / Faceit`
+- for a `Fuser`, `Output` goes to the main monitor, `HDMI1 / host` goes to the main PC, and `HDMI2 / secondary` goes to the 2nd PC
+
+Safe reply:
+
+"Hi, the `$150 EAC` firmware supports Rust, Fortnite, and Apex based on current team confirmation."
+
+## Internal Copypasta / DMA Notes
+
+Useful internal memory from team/copypasta channels:
+
+### DMA Basic Setup
+
+- DMA card installs in a PCIe slot on the main PC
+- main PC BIOS changes may include:
+  - disable Virtualization
+  - disable VT-d
+  - disable IOMMU
+  - disable NX-Bit if available
+  - disable Secure Boot if needed
+  - set PCI slot to Gen1 if needed
+- on the 2nd PC, Device Manager should show:
+  - FTDI FT601 USB 3.0 Bridge Device
+- after setup, reboot the 2nd PC and run a speed test
+
+Useful setup sequence from BMP:
+
+1. Turn off the main PC
+2. Install the board
+3. Connect the Data Port on DMA to the 2nd PC
+4. Boot into BIOS
+5. Apply the needed BIOS changes
+6. Boot into Windows
+7. Check for FTDI FT601 USB 3.0 Bridge Device on the 2nd PC
+8. Reboot the 2nd PC
+9. Run speed test
+
+If speed test is dumping memory, DMA is ready.
+
+### Hung DMA
+
+If DMA software is stuck on "starting dma":
+
+- unplug radar PC from DMA card
+- power cycle gaming PC
+- plug DMA back into radar PC
+
+### Dummy-Proof Explanations from BMP
+
+DMA:
+
+- hardware can read and write memory directly
+
+HDMI Fuser:
+
+- combines outputs so ESP/visuals can show on the main monitor
+
+KMBox:
+
+- safest way to use aimbot on stronger anti-cheats by emulating mouse input
+
+Firmware:
+
+- what makes the DMA device appear safe / not obviously a DMA device
+
+### Extra Notes
+
+- newer boards can sometimes have issues changing disk serials
+- useful internal references mentioned:
+  - DMA guide
+  - Fuser guide
+  - KMBox guide
+  - XIM / KMBox guide
+  - .NET Framework 3.5 installer guide
+
+### Ignore as Real Guidance
+
+Do not treat these as actual support instructions:
+
+- jokes about RAM slots
+- hammer / air chisel jokes
+- old provider-list chatter unless the team says it is still relevant
+
 ## April 21, 2026 Memory Additions
 
 Recent support-safe additions from newer ticket/chat review:
@@ -805,37 +970,3 @@ Safe reply:
 https://ducks-services.com/store/product/1804-sync-hwid-spoofer/
 
 For normal COD use, that was treated as fine in prior team guidance. For `TPM` or ranked-ban questions, I would rather have `Trix` or the team confirm that properly first so I do not give you the wrong answer."
-
-### May 9, 2026 Memory Additions
-
-COD firmware memory:
-
-- older firmware from around `2025` was said to need an update for `EAC` because it is blocked there
-- `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`
-- keep the customer wording careful and do not turn that into a `100% safe` or guaranteed `undetectable` claim
-
-New `2nd PC` / mini PC memory:
-
-- changing to a different `2nd PC` does not automatically mean the customer needs a new firmware flash
-- saved `Trix` guidance was that the firmware is on the DMA card once flashed
-- because of that, a DMA-compatible new mini PC can still be fine without reflashing just because the PC changed
-- if a customer asks whether a `USB to Type-C` adapter will definitely work on a mini PC with no native `Type-C` port, do not hard-promise that from memory alone; confirm that exact adapter/cable detail first if needed
-
-### May 7, 2026 Memory Additions
-
-DC500 / high refresh memory from Trix:
-
-- on the `DC500`, the status light is meant to be `static red`
-- if a customer says they were only tapping the fuser buttons, remind them some actions require holding the buttons down
-- if a customer cannot get `240Hz` and says the refresh rate or colors look bad, first suspect:
-  - the `2nd PC` is not strong enough
-  - the cables are not good enough for that high refresh setup
-- team memory from `Trix` says the cable that comes with it may not be good enough for `240Hz`
-- safest support direction is to ask about:
-  - exact monitor model
-  - exact cable type being used
-  - 2nd PC specs
-
-Safe reply:
-
-"Hi, if the `DC500` light is static red, that part is expected. If you cannot get `240Hz` or the colors look bad, the first things to check are the `2nd PC` and the cable quality. For very high refresh setups, the included cable may not be enough. Please send your exact monitor model, 2nd PC specs, and which cable type you are using so we can check the correct next step."

@@ -805,37 +805,3 @@ Safe reply:
 https://ducks-services.com/store/product/1804-sync-hwid-spoofer/
 
 For normal COD use, that was treated as fine in prior team guidance. For `TPM` or ranked-ban questions, I would rather have `Trix` or the team confirm that properly first so I do not give you the wrong answer."
-
-### May 9, 2026 Memory Additions
-
-COD firmware memory:
-
-- older firmware from around `2025` was said to need an update for `EAC` because it is blocked there
-- `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`
-- keep the customer wording careful and do not turn that into a `100% safe` or guaranteed `undetectable` claim
-
-New `2nd PC` / mini PC memory:
-
-- changing to a different `2nd PC` does not automatically mean the customer needs a new firmware flash
-- saved `Trix` guidance was that the firmware is on the DMA card once flashed
-- because of that, a DMA-compatible new mini PC can still be fine without reflashing just because the PC changed
-- if a customer asks whether a `USB to Type-C` adapter will definitely work on a mini PC with no native `Type-C` port, do not hard-promise that from memory alone; confirm that exact adapter/cable detail first if needed
-
-### May 7, 2026 Memory Additions
-
-DC500 / high refresh memory from Trix:
-
-- on the `DC500`, the status light is meant to be `static red`
-- if a customer says they were only tapping the fuser buttons, remind them some actions require holding the buttons down
-- if a customer cannot get `240Hz` and says the refresh rate or colors look bad, first suspect:
-  - the `2nd PC` is not strong enough
-  - the cables are not good enough for that high refresh setup
-- team memory from `Trix` says the cable that comes with it may not be good enough for `240Hz`
-- safest support direction is to ask about:
-  - exact monitor model
-  - exact cable type being used
-  - 2nd PC specs
-
-Safe reply:
-
-"Hi, if the `DC500` light is static red, that part is expected. If you cannot get `240Hz` or the colors look bad, the first things to check are the `2nd PC` and the cable quality. For very high refresh setups, the included cable may not be enough. Please send your exact monitor model, 2nd PC specs, and which cable type you are using so we can check the correct next step."

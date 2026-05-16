@@ -955,6 +955,22 @@ https://ducks-services.com/store/product/521-11-emulated-be-cod-bf-fivem/
 
 Once your mini PC arrives, just notify us and we can help you with the next step."
 
+Additional spoofer memory:
+
+- exact `Sync HWID Spoofer` product link:
+  - `https://ducks-services.com/store/product/1804-sync-hwid-spoofer/`
+- for a `COD` perm-ban question, one support answer treated `Sync HWID Spoofer` as fine for normal `COD` use
+- important limit:
+  - do not treat `TPM` bans or ranked-specific ban handling as confirmed from that answer
+  - defer `TPM` / ranked-ban questions to `Trix` or team confirmation first
+
+Safe reply:
+
+"Hi, the `Sync HWID Spoofer` is the product normally suggested for this:
+https://ducks-services.com/store/product/1804-sync-hwid-spoofer/
+
+For normal COD use, that was treated as fine in prior team guidance. For `TPM` or ranked-ban questions, I would rather have `Trix` or the team confirm that properly first so I do not give you the wrong answer."
+
 ### April 24, 2026 Memory Additions
 
 Budget `R6 DMA` sales memory:
@@ -1071,3 +1087,18 @@ Safe reply:
 
 For COD / BO7 / Warzone, the most popular bundle Mr. Duck recommended is the `Duck's DMA - 75t Ultimate Bundle`:
 https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/"
+
+### May 9, 2026 Memory Additions
+
+COD firmware memory:
+
+- older firmware from around `2025` was said to need an update for `EAC` because it is blocked there
+- `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`
+- keep the customer wording careful and do not turn that into a `100% safe` or guaranteed `undetectable` claim
+
+New `2nd PC` / mini PC memory:
+
+- changing to a different `2nd PC` does not automatically mean the customer needs a new firmware flash
+- saved `Trix` guidance was that the firmware is on the DMA card once flashed
+- because of that, a DMA-compatible new mini PC can still be fine without reflashing just because the PC changed
+- if a customer asks whether a `USB to Type-C` adapter will definitely work on a mini PC with no native `Type-C` port, do not hard-promise that from memory alone; confirm that exact adapter/cable detail first if needed

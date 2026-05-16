@@ -1068,6 +1068,25 @@ Safe reply:
 
 Hi, please try using a VPN first and then open the link again. If it still shows the same warning, please send a screenshot of the exact message and the link you clicked so I can check it properly.
 
+### 29.13 COD Perm Ban / Sync HWID Spoofer
+
+- exact `Sync HWID Spoofer` product link:
+- `https://ducks-services.com/store/product/1804-sync-hwid-spoofer/`
+- one support answer treated `Sync HWID Spoofer` as fine for normal `COD` use
+- important caution:
+- do not extend that into a blanket promise for `TPM` bans
+- do not promise ranked-ban handling from that answer alone
+- safest handling:
+- for normal product-direction questions, point them to `Sync HWID Spoofer`
+- for `TPM` or ranked-ban questions, tell them you want `Trix` or the team to confirm properly first
+
+Safe reply:
+
+Hi, the `Sync HWID Spoofer` is the product normally suggested for this:
+https://ducks-services.com/store/product/1804-sync-hwid-spoofer/
+
+For normal COD use, that was treated as fine in prior team guidance. For `TPM` or ranked-ban questions, I would rather have `Trix` or the team confirm that properly first so I do not give you the wrong answer.
+
 ### 29.13 Budget R6 DMA Recommendation
 
 - for a budget `Rainbow Six Siege` DMA setup, the saved direct owner recommendation is:
@@ -1186,3 +1205,23 @@ Hi, firmware does not come preinstalled with the DMA bundle. If you want us to h
 
 For COD / BO7 / Warzone, the most popular bundle Mr. Duck recommended is the `Duck's DMA - 75t Ultimate Bundle`:
 https://ducks-services.com/store/product/1135-ducks-dma-75t-ultimate-bundle/
+
+### 29.14 Older Firmware / COD vs EAC
+
+- older firmware from around `2025` was said to need an update for `EAC` because it is blocked there
+- `Mr. Duck` said `COD` has not blocked firmware and treated it as fine for `COD`
+- keep the support wording careful
+- do not turn this into a blanket `undetectable` promise
+- do not say `100% safe`
+
+Safe reply:
+
+Hi, based on current team guidance, `COD` was treated as fine on that firmware, but older firmware would need an update for `EAC` titles because those are blocked there. I do not want to phrase that as a guaranteed `undetectable` claim.
+
+### 29.16 New 2nd PC / Mini PC / Firmware
+
+- changing to a different DMA `2nd PC` does not automatically mean the customer needs a new firmware flash
+- saved `Trix` guidance was that the firmware is on the DMA card once flashed
+- because of that, a DMA-compatible new mini PC can still be fine without reflashing just because the PC changed
+- if a customer asks whether a `USB to Type-C` adapter will definitely work on a mini PC with no native `Type-C` port, do not hard-promise that from memory alone
+- safest handling for the adapter question is to confirm that exact adapter/cable detail first if the customer needs a definite answer
